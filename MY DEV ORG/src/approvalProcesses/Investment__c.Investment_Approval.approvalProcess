@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Investment_Amount__c</field>
+        <field>Investment_Type__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <type>userHierarchyField</type>
+            </approver>
+        </assignedApprover>
+        <label>Step 1</label>
+        <name>Step_1</name>
+    </approvalStep>
+    <description>2 Step Approval Process to seek Investment Approval at Business Unit and Group Cx level.</description>
+    <emailTemplate>unfiled$public/Investment_Approvalrequest</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Investment__c.No_of_Inventory_Records__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Investment__c.Investment_Amount__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Approved_Email</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Rejection</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Approval_Request</name>
+            <type>Alert</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Investment Approval</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>true</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Manager</userHierarchyField>
+    </nextAutomatedApprover>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Q&amp;A</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Q&amp;As</value>
+    </caseValues>
+    <fields>
+        <label><!-- Answers --></label>
+        <name>Answers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investment --></label>
+        <name>Investment__c</name>
+        <relationshipLabel><!-- Q&amp;As --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Questions --></label>
+        <name>Questions__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

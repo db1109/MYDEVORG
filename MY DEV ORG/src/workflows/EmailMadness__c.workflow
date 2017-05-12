@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>X123</fullName>
+        <description>123</description>
+        <protected>false</protected>
+        <recipients>
+            <field>cc1__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>cc2__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>cc4__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityChangePasswordEmailTemplate</template>
+    </alerts>
+    <rules>
+        <fullName>EmailMadness</fullName>
+        <actions>
+            <name>X123</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>true</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

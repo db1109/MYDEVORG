@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Investment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Investments</value>
+    </caseValues>
+    <fields>
+        <label><!-- ExtID --></label>
+        <name>ExtID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investment Amount --></label>
+        <name>Investment_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investment Type --></label>
+        <name>Investment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contracts</masterLabel>
+            <translation><!-- Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merger &amp; Acquisition</masterLabel>
+            <translation><!-- Merger &amp; Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- No. of Inventory Records --></label>
+        <name>No_of_Inventory_Records__c</name>
+    </fields>
+    <layouts>
+        <layout>Investment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Document --></label>
+        <name>Add_Document</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Question --></label>
+        <name>Create_Question</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

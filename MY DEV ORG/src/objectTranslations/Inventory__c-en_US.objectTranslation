@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inventory</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inventory</value>
+    </caseValues>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Financial</masterLabel>
+            <translation><!-- Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation><!-- Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presentation</masterLabel>
+            <translation><!-- Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFI</masterLabel>
+            <translation><!-- RFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP</masterLabel>
+            <translation><!-- RFP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Investment --></label>
+        <name>Investment__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Inventory Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>
