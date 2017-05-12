@@ -1,0 +1,41 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" 
+  controller="AddressFinderController" access="global">
+  
+  <aura:attribute name="accounts" type="Account[]"/>
+  <aura:attribute name="contacts" type="Contact[]"/>
+  <aura:registerEvent name="AddressInfo" type="c:AddressInfo"/>
+  
+  <div class="slds-form--stacked">
+    <div class="slds-form-element">
+      <label class="slds-form-element__label" for="inputSample2">Account Search</label>
+      <div class="slds-form-element__control">
+        <input id="inputSample2" class="slds-input" type="text" placeholder="Enter partial account name" onkeyup="{!c.onSearchKeyChange}" />
+      </div>
+    </div>    
+    <fieldset class="slds-form-element">
+        <legend class="form-element__legend slds-form-element__label">Accounts</legend>
+        <div class="slds-form-element__control">
+          <aura:iteration items="{!v.accounts}" var="account">
+            <label class="slds-radio">
+              <input type="radio" id="{!account.Id}" name="account" onchange="{!c.onAccountSelected}"/>
+              <span class="slds-radio--faux"></span>
+              <span class="slds-form-element__label">{!account.Name}</span>
+            </label>
+          </aura:iteration>
+        </div>
+    </fieldset>
+  
+    <fieldset class="slds-form-element">
+        <legend class="form-element__legend slds-form-element__label">Contacts</legend>
+        <div class="slds-form-element__control">
+          <aura:iteration items="{!v.contacts}" var="contact">
+            <label class="slds-radio">
+              <input type="radio" id="{!contact.Id}" name="contact" onchange="{!c.onContactSelected}"/>
+              <span class="slds-radio--faux"></span>
+              <span class="slds-form-element__label">{!contact.Name}</span>
+            </label>
+          </aura:iteration>
+        </div>
+    </fieldset>
+  </div>
+</aura:component>

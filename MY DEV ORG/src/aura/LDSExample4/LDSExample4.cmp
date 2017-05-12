@@ -1,0 +1,128 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="LDSController">
+   <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:attribute name="accountname" type="string" />
+    <aura:attribute name="parentid" type="id" />
+    <aura:attribute name="isVisible" type="boolean" />
+    <aura:attribute name="isVisibleFile" type="boolean" />
+    <aura:attribute name="acc" type="Account" default="{'sobjectType': 'Account', 'Name': '','Id': ''}" />
+    <aura:attribute name="Acchits" type="Account[]" /> 
+	<aura:attribute name="SelectedLeads" type="string[]" /> 
+ 
+    <aura:attribute name="Leadhits" type="Lead[]" /> 
+ <ui:inputText label="Account" value="{!v.accountname}"  blur="{!c.handleBlur}"/>
+              
+        <aura:if isTrue="{!v.isVisible}">
+            
+            <ul class="slds-lookup__list" role="listbox"><aura:iteration var="ax" items="{!v.Acchits}" >
+                <li role="presentation" >
+                    <span class="slds-lookup__item-action slds-media"  role="option" >
+                        <c:svg class="slds-icon slds-icon-standard-account slds-icon--small slds-media__figure" aria-hidden="false" xlinkHref="{!$Resource.LDS + '/assets/icons/standard-sprite/svg/symbols.svg#account'}" />
+                        <div class="slds-media__body" >
+                            <div class="slds-lookup__result-text" onclick="{!c.setAcc}" id="{!ax.Id}">{!ax.Name}</div>
+                            <span class="slds-lookup__result-meta slds-text-body--small" >AccID is: {!ax.Id}</span>
+                        </div>
+                    </span>
+                </li>
+                </aura:iteration></ul>
+          
+    </aura:if>
+    
+        <aura:if isTrue="{!v.isVisibleFile}">
+    
+        <div class="slds-scrollable slds-grow">
+          <table role="grid" class="slds-table slds-table--fixed-layout slds-table--bordered slds-table--resizable-cols slds-no-row-hover slds-scrollable--none">
+            <thead>
+              <tr class="slds-line-height--reset">
+                <th scope="col" style="width:3.75rem;"></th>
+                <th aria-label="Name" class="slds-is-sortable slds-is-resizable slds-text-title--caps" scope="col">
+                  <a href="javascript:void(0);" class="slds-th__action slds-text-link--reset" tabindex="-1">
+                    <span class="slds-assistive-text">Sort </span>
+                    <span class="slds-truncate" title="Name">ID</span>
+                    <div class="slds-icon_container">
+                        
+<c:svg class="slds-icon slds-icon--x-small slds-icon-text-default slds-is-sortable__icon" aria-hidden="false" xlinkHref="{!$Resource.LDS + '/assets/icons/utility-sprite/svg/symbols.svg#arrowdown'}" />
+
+                    </div>
+                    <span class="slds-assistive-text" aria-live="assertive" aria-atomic="true"></span>
+                  </a>
+                  <div class="slds-resizable">
+                    <label for="cell-resize-handle-741" class="slds-assistive-text">ID</label>
+                    <input type="range" min="20" max="1000" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-741" tabindex="-1" />
+                    <span class="slds-resizable__handle">
+                      <span class="slds-resizable__divider"></span>
+                    </span>
+                  </div>
+                </th>
+                <th aria-label="Product Code" class="slds-is-sortable slds-is-resizable slds-text-title--caps" scope="col">
+                  <a href="javascript:void(0);" class="slds-th__action slds-text-link--reset" tabindex="-1">
+                    <span class="slds-assistive-text">Sort </span>
+                    <span class="slds-truncate" title="Product Code">Email</span>
+                    <div class="slds-icon_container">
+
+                        <c:svg class="slds-icon slds-icon--x-small slds-icon-text-default slds-is-sortable__icon" aria-hidden="false" xlinkHref="{!$Resource.LDS + '/assets/icons/utility-sprite/svg/symbols.svg#arrowdown'}" />
+
+
+                    </div>
+                    <span class="slds-assistive-text" aria-live="assertive" aria-atomic="true"></span>
+                  </a>
+                  <div class="slds-resizable">
+                    <label for="cell-resize-handle-742" class="slds-assistive-text">Product Code column width</label>
+                    <input type="range" min="20" max="1000" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-742" tabindex="-1" />
+                    <span class="slds-resizable__handle">
+                      <span class="slds-resizable__divider"></span>
+                    </span>
+                  </div>
+                </th>
+                <th aria-label="List Price" class="slds-is-sortable slds-is-resizable slds-text-title--caps" scope="col">
+                  <a href="javascript:void(0);" class="slds-th__action slds-text-link--reset" tabindex="-1">
+                    <span class="slds-assistive-text">Sort </span>
+                    <span class="slds-truncate" title="List Price">Name</span>
+                    <div class="slds-icon_container">
+                      <c:svg class="slds-icon slds-icon--x-small slds-icon-text-default slds-is-sortable__icon" aria-hidden="false" xlinkHref="{!$Resource.LDS + '/assets/icons/utility-sprite/svg/symbols.svg#arrowdown'}" />
+
+                    </div>
+                    <span class="slds-assistive-text" aria-live="assertive" aria-atomic="true"></span>
+                  </a>
+                  <div class="slds-resizable">
+                    <label for="cell-resize-handle-743" class="slds-assistive-text">List Price column width</label>
+                    <input type="range" min="20" max="1000" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-743" tabindex="-1" />
+                    <span class="slds-resizable__handle">
+                      <span class="slds-resizable__divider"></span>
+                    </span>
+                  </div>
+                </th>
+               
+              </tr>
+            </thead>
+            <tbody>
+            
+                <aura:iteration var="lx" items="{!v.Leadhits}" >
+                <tr class="slds-hint-parent">
+                <td role="gridcell" tabindex="0" class="slds-text-align--right" style="width:3.75rem;">
+                  <div class="slds-checkbox--add-button">
+                    <input type="checkbox" class="slds-assistive-text" id="{!lx.Id}" tabindex="-1" onclick="{!c.setLead}"/>
+                    <label for="{!lx.Id}" class="slds-checkbox--faux">
+                      <span class="slds-assistive-text">Select item 1</span>
+                    </label>
+                  </div>
+                </td>
+                <th scope="row">
+                  <div class="slds-truncate" title="{!lx.Id}">{!lx.Id}</div>
+                </th>
+                <td role="gridcell">
+                  <div class="slds-truncate" title="{!lx.Email}">{!lx.Email}</div>
+                </td>
+                <td role="gridcell">
+                  <div class="slds-truncate" title="{!lx.Name}">{!lx.Name}</div>
+                </td>
+          
+              </tr>
+                </aura:iteration>
+            </tbody>
+          </table>
+        </div>
+     
+    <div class="slds-no-flex"><button class="slds-button slds-button--neutral" onclick="{!c.createConfromLead}">Convert</button></div>
+
+    </aura:if>
+</aura:component>

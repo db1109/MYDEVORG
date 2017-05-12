@@ -1,0 +1,5 @@
+<apex:page standardController="Opportunity" recordSetVar="opportunities"
+tabStyle="Opportunity" >
+    
+    SOME TEXT 
+</apex:page>

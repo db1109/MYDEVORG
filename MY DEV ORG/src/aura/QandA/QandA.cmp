@@ -1,0 +1,28 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="qaController" >
+   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+   <aura:attribute name="recordId" type="String" />
+   <aura:attribute name="Ghits" type="Q_A__c[]" /> 
+    <body><div class="SLDS">
+		<div class="slds-p-top--medium"></div>
+			<h3 class="slds-section__title">Relevant Questions</h3>
+        	<div class="slds-p-top--medium"></div>
+	    			<table class="slds-table slds-table--bordered slds-table--cell-buffer">
+    				<thead><tr class="slds-text-title--caps">
+      				<th scope="col"><div class="slds-truncate">Question</div></th>
+                    <th scope="col"><div class="slds-truncate">Answer</div></th>
+                        <th scope="col"><div class="slds-truncate">Investment Type</div></th>
+                        <th scope="col"><div class="slds-truncate">Investment Name</div></th>
+                        <th scope="col"><div class="slds-truncate">Link</div></th>
+      				</tr></thead>
+     			<tbody> 
+                    <aura:iteration var="ax" items="{!v.Ghits}" ><tr>
+         			<td><div>{!ax.Questions__c}</div></td>
+                    <td><div>{!ax.Answers__c}</div></td>
+                    <td><div>{!ax.Investment__r.Investment_Type__c}</div></td>
+					<td><div>{!ax.Investment__r.Name}</div></td>                        
+                    <td><div class="slds-truncate"><button type="button" class="slds-button" onclick="{!c.navToBar}" id="{!ax.Id}">Go</button></div></td>
+                    </tr></aura:iteration>	
+                </tbody>
+        		</table>
+ </div></body>
+</aura:component>

@@ -1,0 +1,3 @@
+<apex:page standardController="Account" showHeader="false" sidebar="false" docType="html-5.0"  standardStylesheets="false">
+<c:Typeahead object="Account" /> 
+</apex:page>

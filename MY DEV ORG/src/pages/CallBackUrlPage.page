@@ -1,0 +1,15 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false">
+    <apex:includeScript value="/lightning/lightning.out.js" /> 
+    <script>
+        var code="{!$CurrentPage.parameters.code}";
+ 		$Lightning.use("c:LightningOutApp", function() {
+            $Lightning.createComponent("c:LightningOutCmp",
+                  { "code" : code },
+                  "lightningComponent",
+                  function(cmp) {
+                    // any further setup goes here
+            });
+        });
+    </script>
+    <div id="lightningComponent"/>
+</apex:page>

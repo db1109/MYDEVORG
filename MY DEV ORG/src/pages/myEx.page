@@ -1,0 +1,9 @@
+<apex:page standardController="Account" extensions="myExampleClass">
+
+    <c:myExampleClass con="{!Account.Contacts}" val="{!selectedId}"/>
+
+
+    <apex:outPutPanel layout="block" id="myBlock">
+        {!selectedId}
+    </apex:outPutPanel>
+</apex:page>

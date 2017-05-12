@@ -1,0 +1,5 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="Sample Custom Theme Layout">
+<aura:attribute name="NavX" type="Aura.Component[]" required="false"/><div>
+<div class="navigation">{!v.NavX}</div> 
+<div class="mainContentArea">{!v.body}</div></div>
+</aura:component>

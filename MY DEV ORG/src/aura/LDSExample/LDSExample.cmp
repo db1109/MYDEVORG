@@ -1,0 +1,56 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="LDSController">
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:attribute name="accountname" type="string" />
+    <aura:attribute name="isVisible" type="boolean" />
+    <aura:attribute name="acc" type="Account" default="{'sobjectType': 'Account', 'Name': '','Id': ''}" />
+    <aura:attribute name="Acchits" type="Account[]" /> 
+       <aura:attribute name="Conhits" type="Contact[]" /> 
+    <div class="SLDS">
+        <ui:inputText label="Account" value="{!v.accountname}"  blur="{!c.handleBlur}"/>
+        <aura:if isTrue="{!v.isVisible}">
+            
+            <ul class="slds-lookup__list" role="listbox"><aura:iteration var="ax" items="{!v.Acchits}" >
+                <li role="presentation" >
+                    <span class="slds-lookup__item-action slds-media"  role="option" >
+                        <c:svg class="slds-icon slds-icon-standard-account slds-icon--small slds-media__figure" aria-hidden="false" xlinkHref="{!$Resource.LDS + '/assets/icons/standard-sprite/svg/symbols.svg#account'}" />
+                        <div class="slds-media__body" >
+                            <div class="slds-lookup__result-text" onclick="{!c.setAcc}" id="{!ax.Id}">{!ax.Name}</div>
+                            <span class="slds-lookup__result-meta slds-text-body--small" >AccID is: {!ax.Id}</span>
+                        </div>
+                    </span>
+                </li>
+                </aura:iteration></ul>
+            
+            <!-- A Lightning Related List for Associated Contacts -->
+            <div class="slds-section-title--divider">A Lightning Related List for Associated Contacts</div>
+            <article class="slds-card">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media--center slds-has-flexi-truncate">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-standard-contact" title="description of icon when needed">
+                                <c:svg class="slds-icon slds-icon--small" aria-hidden="false" xlinkHref="{!$Resource.LDS + '/assets/icons/standard-sprite/svg/symbols.svg#contact'}" />
+                            </span></div>
+                        <div class="slds-media__body"><h2><span class="slds-text-heading--small">Contacts</span></h2></div>
+                    </header>
+                    <div class="slds-no-flex"><button class="slds-button slds-button--neutral" onclick="{!c.createCon}">New</button></div>
+                </div>
+                <div class="slds-card__body">
+                    <table class="slds-table slds-table--bordered slds-no-row-hover slds-table--cell-buffer">
+                        <thead><tr class="slds-text-title--caps">
+                                <th scope="col"><div class="slds-truncate" title="Name">Name</div></th>
+                                <th scope="col"><div class="slds-truncate" title="Company">Company</div></th>
+                                <th scope="col"><div class="slds-truncate" title="Title">Title</div></th>
+                                <th scope="col"><div class="slds-truncate" title="Email">Email</div></th></tr>
+                        </thead>
+                        <aura:iteration var="cx" items="{!v.Conhits}" >
+                        <tbody><tr class="slds-hint-parent">
+                            	<th scope="row"><div class="slds-truncate" title="{!cx.Name}"><a onclick="{!c.goCon}" id="{!cx.Id}">{!cx.Name}</a></div></th>
+                                <td><div class="slds-truncate" title="{!cx.Account.Name}">{!cx.Account.Name}</div></td>
+                                <td><div class="slds-truncate" title="{!cx.Title}">{!cx.Title}</div></td>
+                                <td><div class="slds-truncate" title="{!cx.Email}">{!cx.Email}</div></td></tr>
+                        </tbody>
+                        </aura:iteration>
+                    </table></div>
+            </article>
+ </aura:if>
+    </div></aura:component>

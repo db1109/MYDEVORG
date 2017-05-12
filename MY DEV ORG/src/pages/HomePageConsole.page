@@ -1,0 +1,23 @@
+<apex:page controller="tabTest">
+  <!--  
+    <apex:enhancedList type="Case" height="300" rowsPerPage="10" listid="00B0Y000003e48J"/>
+    -->
+<style>
+.activeTab {background-color:light-grey; color:black; background-image:none}
+.inactiveTab { background-color:white; color:black; background-image:none}
+h2.title {font-size: 1em;}    
+</style>
+
+    
+<apex:sectionHeader title="Service Console Home Page" subtitle="Sub Title..."/>
+<!--<analytics:reportChart cacheAge="3000" rendered="true" size="medium" showRefreshButton="false" hideOnError="false" reportId="00O0Y000003YQ1x"></analytics:reportChart>-->
+    <apex:tabpanel switchtype="ajax" selectedTab="ListView" tabClass="activeTab" inactiveTabClass="inactiveTab">
+        <apex:tab name="ReportsTab" label="Case Reports" style="background-color:white;"> 
+	 		<apex:iframe src="/apex/TEST"/> 
+        </apex:tab>
+      	<apex:tab name="ListView" label="Case List Views" style="background-color:white;">
+     		<apex:enhancedList type="Case" height="300" rowsPerPage="10" listid="00B0Y000003e48J" /> 
+         	<apex:enhancedList type="Case" height="300" rowsPerPage="10" listid="00B0Y000002oe6V" />
+        </apex:tab>
+    </apex:tabpanel>
+</apex:page>

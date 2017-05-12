@@ -1,0 +1,6 @@
+<apex:page standardController="Opportunity" extensions="lexLookup">
+<apex:outPutPanel layout="block" id="myBlock">
+<c:lexLookup ffs="Acc__c" ffobj="{!Opportunity}"></c:lexLookup>
+--In The Page --  {!Opportunity.Acc__c}  -----
+</apex:outPutPanel>
+</apex:page>

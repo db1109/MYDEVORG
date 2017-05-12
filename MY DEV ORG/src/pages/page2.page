@@ -1,0 +1,23 @@
+<apex:page sidebar="false" standardstylesheets="false" showheader="false" doctype="html-5.0">
+  <apex:slds />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="{!URLFOR($Resource.aljs, '/jquery.aljs-all-with-moment.min.js')}"></script>
+<script>    
+    $(document).ready(function() {
+    $('#date').datepicker();
+});
+    </script>
+    
+       <div class="slds-form--stacked">
+    <div class="slds-form-element">
+        <label class="slds-form-element__label" for="date">Date Picker Label</label>
+        <div class="slds-form-element__control slds-input-has-icon">
+          <input id="date" onclick="readyFn();" class="slds-input" type="text" placeholder="Pick a Date" label="Date Picker Label" />
+        </div>
+    </div>
+</div>
+
+
+        <span id="SelectedDate">ccc</span>
+    
+</apex:page>

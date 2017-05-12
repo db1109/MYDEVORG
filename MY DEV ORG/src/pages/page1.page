@@ -1,0 +1,88 @@
+<apex:page standardcontroller="Case" extensions="SubmitCaseController" docType="html-5.0">
+<apex:slds />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="{!URLFOR($Resource.aljs, '/jquery.aljs-all-with-moment.min.js')}"></script>
+
+   <script type="text/javascript">
+    function remoteSetDate() {
+        //var d = document.getElementById('date').value;
+        //document.getElementById('ddd').value =d;
+       	        console.log('4');
+        RefreshCaseListJSX('11/11/1900');
+        
+        console.log('5');
+        //Visualforce.remoting.Manager.invokeAction('{!$RemoteAction.SubmitCaseController.getVal}',d, 
+        //   function(result, event){if (event.status) {
+        //   } else if (event.type === 'exception') {} else {}},
+        //                                        {escape: true});
+    }
+    </script>
+
+    
+    
+    <script>    
+$(document).ready(function() {
+
+$('#date').datepicker({
+    //initDate: moment(), //Today Date
+      
+    format: 'DD/MM/YYYY', //Date Format Of Datepicker Input Field
+    onChange: function(datepicker) {
+                console.log('1');
+        $('#SelectedDate').html('Selected Date: <strong>'+moment(datepicker.selectedFullDate._d).format('DD/MM/YYYY')+'</strong>');
+        //   alert('datepicker.selectedFullDate  ' + moment(datepicker.selectedFullDate._d).format('DD/MM/YYYY'));
+        console.log('2');
+        remoteSetDate();
+        //        console.log('3');
+        //RefreshCaseListJSX('12/11/1900');
+        //console.log('4');
+    }
+  });
+});
+</script>
+<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<apex:form >
+
+    <div class="slds-form--horizontal">
+	 	<div class="slds-form-element">
+    		<label class="slds-form-element__label" for="inputSample2">Subject</label>
+    		<div class="slds-form-element__control"><apex:inputText required="true" value="{!c.Subject}"/> </div>
+    	</div>
+
+         <div class="slds-form-element">
+        <label class="slds-form-element__label" for="date">Close Date</label>
+        	<div class="slds-form-element__control slds-input-has-icon">
+                <input id="date" class="slds-input" type="text" placeholder="Pick a Date" label="Date Picker Label"/>
+            
+       </div>
+        </div>
+
+        
+        
+    </div>
+    <span id="SelectedDate" ></span>
+ 
+    <apex:actionFunction action="{!submitCase2}" name="RefreshCaseListJSX" rerender="table_of_records">
+        
+        <apex:param name="x" assignto="{!cd}" value=""/> 
+    </apex:actionFunction>
+
+     <apex:pageBlock id="table_of_records" >
+         {!cd}
+         <button onclick="remoteSetDate();" >test </button>
+    </apex:pageBlock>
+    
+    
+    <apex:outputLink value="javascript:if (window.confirm('Are you sure?')) DeleteQuoteLineItem('TEST VALUE');">
+    Del
+</apex:outputLink>
+
+    <apex:actionFunction action="{!submitCase2}" name="DeleteQuoteLineItem" reRender="content">
+        <apex:param name="myParam" value=""/>
+    </apex:actionFunction>
+    
+    
+  </apex:form>    
+    
+    </html>
+</apex:page>

@@ -1,0 +1,35 @@
+<apex:page tabStyle="Case" showHeader="false" controller="PushNotificationsController" >
+<apex:includeScript value="/support/console/28.0/integration.js"/>
+<apex:includeScript value="{!$Resource.cometd}"/>
+<apex:includeScript value="{!$Resource.jquery}"/>
+<apex:includeScript value="{!$Resource.json2}"/>
+<apex:includeScript value="{!$Resource.jquery_cometd}"/>
+<script type="text/javascript">
+document.onload = sforce.console.setCustomConsoleComponentButtonText( '.  No. of Tasks:' + '{!TaskSize}');
+document.onload = sforce.console.setCustomConsoleComponentButtonStyle('background:'+'{!style}');
+document.onload =sforce.console.setCustomConsoleComponentButtonIconUrl('{!$Resource.img}')
+    
+document.onload = sforce.console.scrollCustomConsoleComponentButtonText(80,10,true);
+</script>
+<script type="text/javascript">
+(function($){
+$(document).ready(function() {
+$.cometd.init({url: window.location.protocol+'//'+window.location.hostname+'/cometd/29.0/',requestHeaders: { Authorization: 'OAuth {!$Api.Session_ID}'}});
+$.cometd.subscribe('/topic/NewTasks', function(message) {RefreshCaseListJSX();});
+
+});
+})(jQuery)
+</script>
+<apex:form id="fm" style="position: absolute;top: 0px;bottom: 0px;overflow: auto;width: 100%">
+<apex:outputPanel rendered="true" style="overflow:auto"> 
+    <apex:pageBlock id="table_of_records" >
+		<apex:pageBlockTable value="{!t}" var="x">
+    		<apex:column value="{!x.subject}"/>
+    		<apex:column value="{!x.createddate}"/>
+    		<apex:column value="{!x.status}"/>
+    	</apex:pageBlockTable>
+   	</apex:pageBlock>
+</apex:outputPanel>
+<apex:actionFunction action="{!RefreshCaseListJS}" name="RefreshCaseListJSX" reRender="table_of_records" oncomplete="sforce.console.setCustomConsoleComponentButtonText('Number of Tasks:' + '{!TaskSize}');sforce.console.setCustomConsoleComponentButtonStyle('background:'+'{!style}');sforce.console.scrollCustomConsoleComponentButtonText(80,10,true);"/>
+</apex:form>                                                                                                                                                                                                                       
+</apex:page>

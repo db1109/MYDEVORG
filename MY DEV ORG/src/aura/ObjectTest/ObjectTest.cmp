@@ -1,0 +1,11 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global"
+controller="ObjectTestClass" >
+
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+	<aura:attribute name="Opp" type="Opportunity" default="{'sobjectType': 'Opportunity', 'Name': '','StageName': ''}" />
+
+    <ui:outputText value="{!v.Opp.StageName}"/>
+    <ui:button aura:id="button" buttonTitle="Save" class="uiButton" label="Save" press="{!c.gogo}" />
+    
+                   </aura:component>

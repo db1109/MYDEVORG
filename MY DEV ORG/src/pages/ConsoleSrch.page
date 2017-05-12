@@ -1,0 +1,8 @@
+<apex:page showHeader="false" sidebar="false" docType="html-5.0"  standardStylesheets="false">
+<!--
+<c:Typeahead object="Account" /> 
+    <input type="hidden" name="accountId" id="accountId" />	
+-->    
+<c:Typeahead object="Contact" /> 
+
+</apex:page>

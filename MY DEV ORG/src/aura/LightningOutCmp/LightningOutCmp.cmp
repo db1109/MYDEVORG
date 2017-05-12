@@ -1,0 +1,26 @@
+<aura:component controller="CallBackURLController" implements="force:appHostable,flexipage:availableForAllPageTypes" access="global">
+  HELLLO
+    <aura:attribute name="code" type="String" default=""/>
+    <aura:attribute name="contacts" type="Contact[]" />
+    <aura:if isTrue="{!v.code==''}">
+        <ui:button label="login into Other Org" press="{!c.redirect}"/>
+        <aura:set attribute="else">
+            <ui:button label="Get Contacts" press="{!c.getCons}"/>
+        </aura:set>
+    </aura:if> 
+<div class="slds-scope">
+<div class="slds-col">
+ <table class="slds-table slds-table--bordered slds-table--cellbuffer">
+ <thead><tr class="slds-text-title--caps">
+ <th scope="col"><div class="slds-truncate">Name</div></th>
+ <th scope="col"><div class="slds-truncate">Phone</div></th>
+ <th scope="col"><div class="slds-truncate">Email</div></th>
+ </tr></thead>
+ <tbody><aura:iteration items="{!v.contacts}" var="con"><tr>
+ <td><div class="slds-truncate" >{!con.Name}</div></td>
+     <td><div class="slds-truncate">{!con.Phone}</div></td>
+ <td><div class="slds-truncate">{!con.Email}</div></td>
+ </tr></aura:iteration></tbody>
+ </table>
+ </div></div>
+</aura:component>

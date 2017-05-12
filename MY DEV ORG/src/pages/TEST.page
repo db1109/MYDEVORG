@@ -1,0 +1,4 @@
+<apex:page showHeader="false" showChat="false" showQuickActionVfHeader="false">
+<analytics:reportChart cacheAge="3000" rendered="true" size="small" showRefreshButton="false" hideOnError="false" reportId="00O0Y000003YQ1x">
+</analytics:reportChart>
+</apex:page>

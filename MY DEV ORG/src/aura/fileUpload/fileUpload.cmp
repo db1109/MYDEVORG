@@ -1,0 +1,27 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="FileController">
+    <aura:attribute name="parentId" type="Id"/>
+    <aura:attribute name="recordId" type="Id" />
+      <aura:attribute name="NEWINV" type="Inventory__c"
+                      
+                       default="{'sobjectType': 'Inventory__c', 'Name': ''}"
+                      /> 
+
+    <div>
+        <ui:inputText label="Name" value="{!v.NEWINV.Name}" /></div>
+{!v.recordId}
+    
+ 
+
+    
+    
+    
+    <div>
+        <input type="file" class="file" aura:id="file" />
+        <ui:button label="Save" press="{!c.save}"/>
+        
+        <div aura:id="uploading" class="notUploading">
+        
+    	</div>
+    </div>
+    
+</aura:component>

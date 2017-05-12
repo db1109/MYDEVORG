@@ -1,0 +1,20 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false">
+ <!-- Lightning Resources-->
+    <apex:includeScript value="/lightning/lightning.out.js" /> 
+    <!-- JavaScript to make Remote Objects calls -->
+    <script>
+        var code="{!$CurrentPage.parameters.code}";
+         
+        $Lightning.use("c:LightningOutApp", function() {
+            $Lightning.createComponent("c:LightningOutCmp",
+                  { "code" : code },
+                  "lightningComponent",
+                  function(cmp) {
+                    // any further setup goes here
+            });
+        });
+    </script>
+      
+    <!-- Lightning Component -->
+    <div id="lightningComponent"/>
+</apex:page>

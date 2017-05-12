@@ -1,0 +1,96 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="LDSController">
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:attribute name="accountname" type="string" />
+    <aura:attribute name="parentid" type="id" />
+    <aura:attribute name="isVisible" type="boolean" />
+    <aura:attribute name="isVisibleFile" type="boolean" />
+    <aura:attribute name="acc" type="Account" default="{'sobjectType': 'Account', 'Name': '','Id': ''}" />
+    <aura:attribute name="Acchits" type="Account[]" /> 
+    <aura:attribute name="selectedFile" type="string" />
+        <aura:attribute name="PLVs" type="string[]" /> 
+        <aura:attribute name="selectedPLV" type="string" /> 
+
+    <aura:attribute name="Conhits" type="Contact[]" /> 
+    <div class="SLDS">
+
+
+        <ui:inputText label="Account" value="{!v.accountname}"  blur="{!c.handleBlur}"/>
+        <aura:if isTrue="{!v.isVisible}">
+            
+            <ul class="slds-lookup__list" role="listbox"><aura:iteration var="ax" items="{!v.Acchits}" >
+                <li role="presentation" >
+                    <span class="slds-lookup__item-action slds-media"  role="option" >
+                        <c:svg class="slds-icon slds-icon-standard-account slds-icon--small slds-media__figure" aria-hidden="false" xlinkHref="{!$Resource.LDS + '/assets/icons/standard-sprite/svg/symbols.svg#account'}" />
+                        <div class="slds-media__body" >
+                            <div class="slds-lookup__result-text" onclick="{!c.setAcc}" id="{!ax.Id}">{!ax.Name}</div>
+                            <span class="slds-lookup__result-meta slds-text-body--small" >AccID is: {!ax.Id}</span>
+                        </div>
+                    </span>
+                </li>
+                </aura:iteration></ul>
+            
+            <!-- A Lightning Related List for Associated Contacts -->
+            <div class="slds-section-title--divider">A Lightning Related List for Associated Contacts</div>
+            <article class="slds-card">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media--center slds-has-flexi-truncate">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-standard-contact" title="description of icon when needed">
+                                <c:svg class="slds-icon slds-icon--small" aria-hidden="false" xlinkHref="{!$Resource.LDS + '/assets/icons/standard-sprite/svg/symbols.svg#contact'}" />
+                            </span></div>
+                        <div class="slds-media__body"><h2><span class="slds-text-heading--small">Contacts</span></h2></div>
+                    </header>
+                    <div class="slds-no-flex"><button class="slds-button slds-button--neutral" onclick="{!c.createCon}">New</button></div>
+                </div>
+                <div class="slds-card__body">
+                    <table class="slds-table slds-table--bordered slds-no-row-hover slds-table--cell-buffer">
+                        <thead><tr class="slds-text-title--caps">
+                            <th scope="col"><div class="slds-truncate" title="Name">Name</div></th>
+                            <th scope="col"><div class="slds-truncate" title="Company">Company</div></th>
+                            <th scope="col"><div class="slds-truncate" title="Title">Title</div></th>
+                            <th scope="col"><div class="slds-truncate" title="Email">Email</div></th></tr>
+                        </thead>
+                        <aura:iteration var="cx" items="{!v.Conhits}" >
+                            <tbody><tr class="slds-hint-parent">
+                                <th scope="row"><div class="slds-truncate" title="{!cx.Name}"><a onclick="{!c.goCon}" id="{!cx.Id}">{!cx.Name}</a></div></th>
+                                <td><div class="slds-truncate" title="{!cx.Account.Name}">{!cx.Account.Name}</div></td>
+                                <td><div class="slds-truncate" title="{!cx.Title}">{!cx.Title}</div></td>
+                                <td><div class="slds-truncate" title="{!cx.Email}">{!cx.Email}</div></td></tr>
+                            </tbody>
+                        </aura:iteration>
+                    </table></div>
+            </article>
+        </aura:if>
+        <aura:if isTrue="{!v.isVisibleFile}">
+            
+            <!-- A Lightning File Selector-->
+            <div class="slds-section-title--divider">File Selector</div>
+            <div class="slds-form-element">
+                <span class="slds-form-element__label" id="file-selector-id">Attachment</span>
+                <div class="slds-form-element__control">
+                    <div class="slds-file-selector slds-file-selector--files">
+                        <div class="slds-file-selector__dropzone">
+                            <input type="file" class="slds-file-selector__input slds-assistive-text" accept="image/png" id="file-upload-input-01" aria-describedby="file-selector-id" aura:id="file" onchange="{!c.showfile}"/>
+                            <label class="slds-file-selector__body" for="file-upload-input-01">
+                                <span class="slds-file-selector__button slds-button slds-button--neutral">
+                                    <c:svg class="slds-button__icon slds-button__icon--left" aria-hidden="false" xlinkHref="{!$Resource.LDS + '/assets/icons/utility-sprite/svg/symbols.svg#upload'}" /> Upload Files</span>
+                                <span class="slds-file-selector__text slds-medium-show">or Drop Files</span></label>
+                        </div></div></div></div>
+        </aura:if>
+        
+<fieldset class="slds-form-element">
+  <legend class="slds-form-element__legend slds-form-element__label">Scheduled Day(s)</legend>
+  <div class="slds-form-element__control">
+    <div class="slds-radio--button-group"><aura:iteration var="px" items="{!v.PLVs}" >
+		<span class="slds-button slds-radio--button">
+        <input type="radio" name="radio"  onclick="{!c.setPLV}" id="{!px}"/>
+        <label class="slds-radio--button__label" for="{!px}">
+          <span class="slds-radio--faux">{!px}</span>
+        </label>
+      </span>
+       </aura:iteration>
+      </div> 
+  </div>
+</fieldset>
+selectedPLV=   {!v.selectedPLV}
+    </div></aura:component>

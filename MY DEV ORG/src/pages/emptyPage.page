@@ -1,0 +1,7 @@
+<apex:page standardController="Case" extensions="lexLookup">
+
+<c:lexLookup ffs="AccountId" ffobj="{!case}"></c:lexLookup>
+<apex:outPutPanel layout="block" id="qqq">
+    --In The Page --  {!case.AccountId}  -----
+</apex:outPutPanel>
+</apex:page>

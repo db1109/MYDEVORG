@@ -1,0 +1,30 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="FileController">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="NEWINV" type="Inventory__c" default="{'sobjectType': 'Inventory__c', 'Name': '---File Name---'}"/> 
+    <aura:attribute name="ListDocStatus" type="String[]" />   
+    <div class="SLDS"></div>
+    <div class="slds-p-top--x-medium" ></div>
+  	<div class="slds-col">
+		<div class="slds-box--small slds-text-align--left">
+			<label class="slds-form-element__label">Document Name</label>
+			<div><ui:inputText value="{!v.NEWINV.Name}" /></div>
+		</div>
+    </div>
+	<div class="slds-col">
+		<div class="slds-box--small slds-text-align--left">
+			<label class="slds-form-element__label">Doc Type</label>
+        <div>
+            <ui:inputSelect aura:id="CaseStatus" >
+			<aura:iteration aura:id="CaseStatuses" items="{!v.ListDocStatus}" var="CSSelected" >
+            	<ui:inputSelectOption text="{!CSSelected}" label="{!CSSelected}" />
+			</aura:iteration></ui:inputSelect>
+		</div>
+		</div>
+    </div>
+    <div class="slds-col">
+		<div class="slds-box--small slds-text-align--left">
+		<div><ui:button label="Next" press="{!c.saveInvX}"/> </div>
+        </div>
+    </div>
+</aura:component>

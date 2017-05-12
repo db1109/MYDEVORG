@@ -1,0 +1,26 @@
+<apex:component controller="lexLookup">
+<apex:slds /> 
+        <apex:attribute name="ffs" type="string" assignTo="{!field}" required="true" description="accountid." />
+        <apex:attribute name="ffobj" type="SObject" assignTo="{!sobj}" required="true" description="...." />
+<script>
+function getAccountLKP() {var elem = document.getElementById('srchTeem').value;getAccMatches(elem);}
+</script>    
+<script>
+function setAccountonCase(aid,aname) {setAcc(aid);document.getElementById('srchTeem').value = aname;}
+</script>
+    <apex:form >
+        <input id="srchTeem" onblur="getAccountLKP();" class="slds-input" type="text" label="123"/>
+        
+            <ul class="slds-lookup__list" role="listbox"><apex:outputPanel id="rrr" ><apex:repeat var="ax" value="{!la}" >
+                <li role="presentation" >
+                    <span class="slds-lookup__item-action slds-media" role="option" >
+                        <svg class="slds-icon slds-icon-standard-account slds-icon--small slds-media__figure" aria-hidden="false" xlinkHref="{!$Resource.LDS +'/assets/icons/standard-sprite/svg/symbols.svg#account'}" />
+                        <div class="slds-media__body" >
+                            <div class="slds-lookup__result-text" onclick="setAccountonCase('{!ax.id}','{!ax.Name}');" id="{!ax.Id}">{!ax.Name}</div>
+                            <span class="slds-lookup__result-meta slds-text-body--small" >AccID is: {!ax.Id}</span></div></span></li>
+                </apex:repeat></apex:outputPanel></ul>Choosen Account = {!selectedID} Field = {!field}
+    
+    <apex:actionFunction action="{!searchAccCont}" name="getAccMatches" reRender="rrr"><apex:param name="srch" value=""/></apex:actionFunction>
+    <apex:actionFunction action="{!setAccountID}" name="setAcc" reRender="qqq,rrr"><apex:param name="aid" value=""/></apex:actionFunction>
+</apex:form>    
+</apex:component>

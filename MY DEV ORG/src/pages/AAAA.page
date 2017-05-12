@@ -1,0 +1,77 @@
+<apex:page standardcontroller="Case" extensions="SubmitCaseController" docType="html-5.0">
+<apex:slds />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="{!URLFOR($Resource.aljs, '/jquery.aljs-all-with-moment.min.js')}"></script>
+<script>    
+$(document).ready(function() {
+$('#date').datepicker({
+format: 'DD/MM/YYYY', //Date Format Of Datepicker Input Field
+onChange: function(datepicker) {
+        SetCaseTargetDate(moment(datepicker.selectedFullDate._d).format('YYYY-MM-DD'));}
+  });
+});
+</script>
+<script>    
+function() {
+$('#date').datepicker({
+format: 'DD/MM/YYYY', //Date Format Of Datepicker Input Field
+onChange: function(datepicker) {
+        SetCaseTargetDate(moment(datepicker.selectedFullDate._d).format('YYYY-MM-DD'));}});});
+</script>    
+<script>
+function getAccountLKP() {var elem = document.getElementById('srchTeem').value;getAccMatches(elem);}
+</script>
+    
+<script>
+function setAccountonCase(aid,aname) {
+    document.getElementById('srchTeem').value = aname;setAcc(aid);
+
+}
+</script>
+  
+    
+    
+<apex:form >
+    <div class="slds-form-element">
+        <label class="slds-form-element__label" for="date">Target Date</label>
+        	<div class="slds-form-element__control slds-input-has-icon">
+                <input id="date" onchange="alert('dd');" class="slds-input" type="text" placeholder="Pick a Date" label="Date Picker Label"/></div></div>
+    
+    <apex:actionFunction action="{!submitCase2}" name="SetCaseTargetDate" reRender="table_of_records">
+        <apex:param name="targdate" value=""/>
+    </apex:actionFunction>
+    
+     <input id="srchTeem" onblur="getAccountLKP();" class="slds-input" type="text" label="123"/>
+    
+    <apex:outputPanel id="fu2" >
+    
+    
+               
+    <ul class="slds-lookup__list" role="listbox"><apex:repeat var="ax" value="{!la}" >
+ <li role="presentation" >
+ <span class="slds-lookup__item-action slds-media" role="option" >
+ <svg class="slds-icon slds-icon-standard-account slds-icon--small slds-media__figure" aria-hidden="false" xlinkHref="{!$Resource.LDS +'/assets/icons/standard-sprite/svg/symbols.svg#account'}" />
+ <div class="slds-media__body" >
+ <div class="slds-lookup__result-text" onclick="setAccountonCase('{!ax.id}','{!ax.Name}');" id="{!ax.Id}">{!ax.Name}</div>
+ <span class="slds-lookup__result-meta slds-text-body--small" >AccID is: {!ax.Id}</span>
+ </div>
+ </span>
+    </li>
+        </apex:repeat></ul>
+
+Choosen Account = {!c.AccountId} 
+    </apex:outputPanel>
+        
+
+    
+    
+    <apex:actionFunction action="{!submitCase3}" name="getAccMatches" reRender="fu2">
+        <apex:param name="srch" value=""/>
+    </apex:actionFunction>
+    <apex:actionFunction action="{!setAccountID}" name="setAcc" reRender="fu2">
+        <apex:param name="aid" value=""/>
+    </apex:actionFunction>
+    
+    
+</apex:form>    
+</apex:page>

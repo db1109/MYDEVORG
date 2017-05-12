@@ -1,0 +1,14 @@
+<apex:component controller="myExampleClass">
+
+<apex:attribute name="con" type="Contact[]" required="true" description="the contacts"/>
+<apex:attribute name="val" type="Id" required="true" description="value to set"/>
+    <apex:form >
+        <apex:repeat value="{!con}" var="e" id="r">
+            <apex:commandLink value="{!e.Name}" reRender="myBlock">
+                <apex:param name="eId" value="{!e.Id}" assignTo="{!val}"/>
+            </apex:commandLink>
+        </apex:repeat>
+    </apex:form>
+
+
+</apex:component>

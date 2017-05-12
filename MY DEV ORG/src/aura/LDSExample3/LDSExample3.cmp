@@ -1,0 +1,21 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="LDSController">
+    <aura:handler name="init" value="{!this}" action="{!c.getPLsX}"/>
+    <aura:attribute name="PLVs" type="string[]" /> 
+    <aura:attribute name="selectedPLV" type="string" /> 
+    <div>
+        <fieldset class="slds-form-element">
+            <legend class="slds-form-element__legend slds-form-element__label">Scheduled Day(s)</legend>
+            <div class="slds-form-element__control">
+                <div class="slds-radio--button-group"><aura:iteration var="px" items="{!v.PLVs}" >
+                    <span class="slds-button slds-radio--button">
+                        <input type="radio" name="radio"  onclick="{!c.setPLV}" id="{!px}"/>
+                        <label class="slds-radio--button__label" for="{!px}">
+                            <span class="slds-radio--faux">{!px}</span>
+                        </label>
+                    </span>
+                    </aura:iteration>
+                </div> 
+            </div>
+        </fieldset>
+        selectedPLV=   {!v.selectedPLV}
+    </div></aura:component>

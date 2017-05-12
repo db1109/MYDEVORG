@@ -1,0 +1,14 @@
+<apex:page >
+     <apex:tabpanel >
+         <apex:tab >
+             conent
+         </apex:tab>
+    <apex:tab >
+         <apex:enhancedList type="Case" height="300" rowsPerPage="10" listid="00B0Y000003e48J"/> 
+    <apex:enhancedList type="Case" height="300" rowsPerPage="10" listid="00B0Y000002oe6V" />
+        
+        </apex:tab>
+</apex:tabpanel>
+    
+    
+    </apex:page>

@@ -1,0 +1,16 @@
+<apex:page >
+    <apex:includeScript value="/support/console/32.0/integration.js"/>
+ 	<script> 
+    window.onload = function() {
+        var myVar;
+		
+        myVar  = setTimeout(OmniLogin('0N50Y000000TNvw'),10000);
+        
+        return false;}
+    </script>
+  
+ 	<script>      
+		function OmniLogin(statusId) {
+			setTimeout(function(){ sforce.console.presence.setServicePresenceStatus(statusId); }, 3000);}
+	</script>
+</apex:page>
