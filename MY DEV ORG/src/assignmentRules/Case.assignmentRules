@@ -13,7 +13,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>priyanka.kohli@devorg.com</assignedTo>
+            <assignedTo>d.bolton-f3mr@force.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -32,7 +32,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>priyanka.kohli@devorg.com</assignedTo>
+            <assignedTo>d.bolton-f3mr@force.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -51,7 +51,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>priyanka.kohli@devorg.com</assignedTo>
+            <assignedTo>d.bolton-f3mr@force.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -70,7 +70,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>priyanka.kohli@devorg.com</assignedTo>
+            <assignedTo>d.bolton-f3mr@force.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
