@@ -318,6 +318,15 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>NOW__c</fullName>
+        <externalId>false</externalId>
+        <formula>now()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>NOW</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
         <fullName>NaicsCode</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>

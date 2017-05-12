@@ -29,6 +29,10 @@
                 <behavior>Edit</behavior>
                 <field>Site</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>NOW__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

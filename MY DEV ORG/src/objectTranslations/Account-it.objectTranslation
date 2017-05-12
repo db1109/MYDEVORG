@@ -183,6 +183,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- NOW --></label>
+        <name>NOW__c</name>
+    </fields>
+    <fields>
         <label><!-- Number of Locations --></label>
         <name>NumberofLocations__c</name>
     </fields>
