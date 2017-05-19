@@ -5,9 +5,4 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default Force.com User Registration Confirmation page</description>
     <label>SiteRegisterConfirm</label>
-    <packageVersions>
-        <majorNumber>6</majorNumber>
-        <minorNumber>6</minorNumber>
-        <namespace>dsfs</namespace>
-    </packageVersions>
 </ApexPage>

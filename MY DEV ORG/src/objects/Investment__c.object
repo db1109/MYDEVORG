@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -94,26 +90,31 @@
         <description>Field to track type of investment being made as this will determine approval process and inventory/documentation requirements related to the Investment record.</description>
         <externalId>false</externalId>
         <label>Investment Type</label>
-        <picklist>
-            <picklistValues>
-                <fullName>Contracts</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Merger &amp; Acquisition</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contracts</fullName>
+                    <default>false</default>
+                    <label>Contracts</label>
+                </value>
+                <value>
+                    <fullName>Merger &amp; Acquisition</fullName>
+                    <default>false</default>
+                    <label>Merger &amp; Acquisition</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>No_of_Inventory_Records__c</fullName>
@@ -145,4 +146,5 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
 </CustomObject>

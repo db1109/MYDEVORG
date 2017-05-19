@@ -36,20 +36,5 @@
         <label><!-- No. of Inventory Records --></label>
         <name>No_of_Inventory_Records__c</name>
     </fields>
-    <layouts>
-        <layout>Investment Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
-    <quickActions>
-        <label><!-- Add Document --></label>
-        <name>Add_Document</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- Create Question --></label>
-        <name>Create_Question</name>
-    </quickActions>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

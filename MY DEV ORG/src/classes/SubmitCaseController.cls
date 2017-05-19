@@ -18,12 +18,15 @@ public Case c { get; set; }
         s = s+'%';
 		la = [select name, id from account where name like :s limit 5];
 } 
-    
+
     public void setAccountID() {
         string aid = Apexpages.currentPage().getParameters().get('aid');
 c.accountid = Id.valueOf(aid);
         la = null;} 
-    
+   
+    @RemoteAction
+        public static string getVal() {return 'q';
+}
     
     public void submitCase() {
         List<account> accts = [select id from account where accountnumber =:acctNum];

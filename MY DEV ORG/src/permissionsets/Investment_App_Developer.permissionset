@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>Case_Omni</application>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>Investment_App_Lightning</application>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <visible>false</visible>
     </applicationVisibilities>
@@ -26,14 +18,6 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningSales</application>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__LightningSalesConsole</application>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__LightningService</application>
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
@@ -443,6 +427,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Asset.IsCompetitorProduct</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Asset.LocationId</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1197,11 +1186,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Event.IsVisibleInSelfService</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Event.Location</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1218,6 +1202,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Event.WhoId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Goal.OrigGoalId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1348,11 +1337,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Lead.NumberofLocations__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Lead.PartnerAccountId</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1627,6 +1611,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Metric.OrigMetricId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.Acc__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1693,11 +1682,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.OrderNumber__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Opportunity.PartnerAccountId</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2067,11 +2051,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Task.IsVisibleInSelfService</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Task.Type</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2085,33 +2064,9 @@
         <field>Task.WhoId</field>
         <readable>false</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.copado__API_URL__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.copado__Hide_Copado_feedback__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.dsfs__DSProSFMembershipStatus__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.dsfs__DSProSFPassword__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.dsfs__DSProSFUsername__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Investment App Developer</label>
+    <license>Salesforce</license>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -2314,35 +2269,19 @@
         <enabled>false</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
-        <recordType>Account.Child_Account</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>Account.UltimateParent</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>Case.Generic</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
-    <tabSettings>
-        <tab>EmailMadness__c</tab>
-        <visibility>None</visibility>
-    </tabSettings>
-    <tabSettings>
-        <tab>Home_Page_Console</tab>
-        <visibility>None</visibility>
-    </tabSettings>
+    <recordTypeVisibilities>
+        <recordType>Metric.Completion</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Metric.Progress</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <tabSettings>
         <tab>Investment__c</tab>
-        <visibility>None</visibility>
-    </tabSettings>
-    <tabSettings>
-        <tab>LDS</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
@@ -2441,5 +2380,4 @@
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>None</visibility>
     </tabSettings>
-    <userLicense>Salesforce</userLicense>
 </PermissionSet>

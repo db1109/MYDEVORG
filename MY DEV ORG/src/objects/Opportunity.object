@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -42,11 +38,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Opportunity_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
@@ -107,25 +99,30 @@
         <fullName>DeliveryInstallationStatus__c</fullName>
         <externalId>false</externalId>
         <label>Delivery/Installation Status</label>
-        <picklist>
-            <picklistValues>
-                <fullName>In progress</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Yet to begin</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Completed</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In progress</fullName>
+                    <default>false</default>
+                    <label>In progress</label>
+                </value>
+                <value>
+                    <fullName>Yet to begin</fullName>
+                    <default>false</default>
+                    <label>Yet to begin</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -143,29 +140,6 @@
     </fields>
     <fields>
         <fullName>LeadSource</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Phone Inquiry</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Partner Referral</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Purchased List</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -209,11 +183,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>PartnerAccountId</fullName>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -225,89 +194,6 @@
     </fields>
     <fields>
         <fullName>StageName</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Prospecting</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>10</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Qualification</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>10</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Needs Analysis</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>20</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Value Proposition</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>50</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Id. Decision Makers</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>60</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Perception Analysis</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>70</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Proposal/Price Quote</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>75</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Negotiation/Review</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>90</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Closed Won</fullName>
-                <default>false</default>
-                <closed>true</closed>
-                <forecastCategory>Closed</forecastCategory>
-                <probability>100</probability>
-                <won>true</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Closed Lost</fullName>
-                <default>false</default>
-                <closed>true</closed>
-                <forecastCategory>Omitted</forecastCategory>
-                <probability>0</probability>
-                <won>false</won>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -330,25 +216,6 @@
     </fields>
     <fields>
         <fullName>Type</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Existing Customer - Upgrade</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Existing Customer - Replacement</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Existing Customer - Downgrade</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>New Customer</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -452,7 +319,6 @@
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
-        <listViewButtons>TEST</listViewButtons>
         <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
@@ -485,85 +351,5 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&amp;action=track&amp;language=english&amp;cntry_code=us</url>
-    </webLinks>
-    <webLinks>
-        <fullName>TEST</fullName>
-        <availability>online</availability>
-        <displayType>massActionButton</displayType>
-        <height>600</height>
-        <linkType>page</linkType>
-        <masterLabel>TEST</masterLabel>
-        <openType>noSidebar</openType>
-        <page>listbuttonPage</page>
-        <protected>false</protected>
-        <requireRowSelection>true</requireRowSelection>
-    </webLinks>
-    <webLinks>
-        <fullName>dsfs__Send_with_DocuSign</fullName>
-        <availability>online</availability>
-        <description>This button will initiate a DocuSign Envelope that is linked to the Opportunity</description>
-        <displayType>button</displayType>
-        <linkType>javascript</linkType>
-        <masterLabel>Send with DocuSign</masterLabel>
-        <openType>onClickJavaScript</openType>
-        <protected>false</protected>
-        <url>{!REQUIRESCRIPT(&quot;/apex/dsfs__DocuSign_JavaScript&quot;)}
-DocuSign_CreateEnvelope();</url>
-    </webLinks>
-    <webLinks>
-        <fullName>dsfs__Verify_with_DNB</fullName>
-        <availability>online</availability>
-        <description>This button will initiate DnBs Pre-Contract Risk Screening linked to the Opportunity</description>
-        <displayType>button</displayType>
-        <linkType>javascript</linkType>
-        <masterLabel>Verify with D&amp;B</masterLabel>
-        <openType>onClickJavaScript</openType>
-        <protected>false</protected>
-        <url>{!REQUIRESCRIPT(&quot;/apex/dsfs__DocuSign_JavaScript&quot;)}
-        
-{!REQUIRESCRIPT(&apos;//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&apos;)} 
-{!REQUIRESCRIPT(&apos;//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js&apos;)} 
-
-var html = &apos;&lt;div id=&quot;dialog&quot; style=&quot;display: none;&quot;&gt;&lt;/div&gt;&apos;;
-
-var $g = jQuery.noConflict();
-
-var address = &apos;&lt;iframe id=&quot;dnbContent&quot; width=&quot;700&quot; height=&quot;730&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; frameborder=&quot;0&quot; src=&quot;&apos;+DocuSign_GetVerifyWithDnb(&apos;opportunity&apos;)+&apos;&quot;&gt;&lt;/iframe&gt;&apos;;
-		
-$g(function() { 
-
-	$g(&apos;head&apos;).append(&apos;&lt;link rel=&quot;stylesheet&quot; href=&quot;https://code.jquery.com/ui/1.11.4/themes/redmond/jquery-ui.css&quot;/&gt;&apos;);
-
-	if($g(&apos;#dialog&apos;).length == 0) {
-		$g(&apos;body&apos;).append(html); 
-	}
-	$g(&quot;#dialog&quot;).dialog({ 
-		autoOpen: true, 
-		modal: true, 
-		width: 700,
-		height: 783,
-		open: function(event, ui) {
-		  if($g(&apos;#myNewImage&apos;).length == 0) {
-		     $g(&quot;.ui-dialog-titlebar&quot;).append(&quot;&lt;img src=&apos;&quot;+getDnbLogo()+&quot;&apos; id=&apos;myNewImage&apos; /&gt;&quot;);
-		  }
-		  $g(&apos;.ui-widget-overlay&apos;).bind(&apos;click&apos;,function(){
-    			$g(&apos;#dialog&apos;).dialog(&quot;close&quot;);
-		  });
-		}
-	})
-	if($g(&apos;#dnbContent&apos;).length == 0) {
-		$g(&apos;#dialog&apos;).append(address); 
-	}
-
-
-	$g(&quot;.ui-dialog-title&quot;).hide();
-	$g(&quot;#dialog&quot;).css(&apos;padding&apos;, &apos;0px&apos;);
-	$g(&quot;.ui-widget-header&quot;).attr(&apos;style&apos;, &apos;padding-top:5px; padding-right:5px; padding-left:10px;padding-bottom:5px; border-radius:0px; background: #005172;border:0px;margin:auto;&apos;);
-	$g(&quot;.ui-button-text&quot;).css(&apos;padding&apos;, &apos;0&apos;);
-	$g(&quot;.ui-icon-closethick&quot;).attr(&apos;style&apos;, &apos;background-color:#005172; width:19px; height:19px; margin-top:-10px; margin-left:-10px;&apos;);
-	$g(&quot;.ui-dialog-titlebar-close&quot;).attr(&apos;style&apos;, &apos;border-radius:0px; padding:0px; width:18px; height:18px; border:0px;&apos;);
-	$g(&quot;.ui-dialog&quot;).css(&apos;z-index&apos;, &apos;10000&apos;);
-	$g(&quot;.ui-dialog&quot;).css(&apos;border-radius&apos;, &apos;0px&apos;);
-});</url>
     </webLinks>
 </CustomObject>

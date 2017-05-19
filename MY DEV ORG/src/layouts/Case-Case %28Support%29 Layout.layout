@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <emailDefault>false</emailDefault>
-    <excludeButtons>Submit</excludeButtons>
     <feedLayout>
         <autocollapsePublisher>true</autocollapsePublisher>
         <compactFeed>true</compactFeed>
         <feedFilterPosition>LeftFixed</feedFilterPosition>
         <feedFilters>
             <feedFilterType>AllUpdates</feedFilterType>
-        </feedFilters>
-        <feedFilters>
-            <feedFilterType>FeedItemType</feedFilterType>
-            <feedItemType>EmailMessageEvent</feedItemType>
-        </feedFilters>
-        <feedFilters>
-            <feedFilterType>FeedItemType</feedFilterType>
-            <feedItemType>MilestoneEvent</feedItemType>
         </feedFilters>
         <feedFilters>
             <feedFilterType>FeedItemType</feedFilterType>
@@ -37,9 +28,6 @@
         <hideSidebar>true</hideSidebar>
         <highlightExternalFeedItems>false</highlightExternalFeedItems>
         <rightComponents>
-            <componentType>Milestones</componentType>
-        </rightComponents>
-        <rightComponents>
             <componentType>HelpAndToolLinks</componentType>
         </rightComponents>
         <rightComponents>
@@ -59,26 +47,11 @@
         </rightComponents>
         <useInlineFiltersInConsole>false</useInlineFiltersInConsole>
     </feedLayout>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Case Header</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Subject</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Description</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>OneColumn</style>
-    </layoutSections>
+    <headers>PersonalTagging</headers>
+    <headers>PublicTagging</headers>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Case Information</label>
         <layoutColumns>
@@ -105,14 +78,6 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Type</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Assigned_to_Q__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Target_Resolution__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -144,55 +109,8 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Entitlement Timeline</label>
-        <layoutColumns/>
-        <style>OneColumn</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Entitlement</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>EntitlementId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>MilestoneStatus</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>SlaExitDate</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>MilestoneStatusIcon</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>SlaStartDate</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>IsStopped</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>StopStartDate</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>TwoColumnsLeftToRight</style>
-    </layoutSections>
-    <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Web Information</label>
         <layoutColumns>
@@ -227,7 +145,7 @@
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Additional Information</label>
         <layoutColumns>
@@ -250,7 +168,7 @@
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>System Information</label>
         <layoutColumns>
@@ -269,10 +187,18 @@
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Description Information</label>
         <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Subject</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Description</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Comments</field>
@@ -281,10 +207,9 @@
         <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>true</customLabel>
+        <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <label>Custom Links</label>
         <layoutColumns>
             <layoutItems>
                 <customLink>UpsellCrosssellOpportunity</customLink>
@@ -299,16 +224,7 @@
             <quickActionName>FeedItem.TextPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>Case.Email</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Case.SendEmail</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
             <quickActionName>Case.LogACall</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Case.CaseComment</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Case.ChangeStatus</quickActionName>
@@ -337,28 +253,6 @@
             </layoutItem>
         </relatedContentItems>
     </relatedContent>
-    <relatedLists>
-        <relatedList>RelatedEmailMessageList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>MILESTONETYPE.MILESTONE</fields>
-        <fields>CASEMILESTONE.TARGET_DATE</fields>
-        <fields>CASEMILESTONE.COMPLETION_DATE</fields>
-        <fields>CASEMILESTONE.TIME_REMAIN_MINS</fields>
-        <fields>CASEMILESTONE.IS_VIOLATED_IN</fields>
-        <fields>CASEMILESTONE.IS_COMPLETED_IN</fields>
-        <relatedList>RelatedCaseMilestoneList</relatedList>
-        <sortField>CASEMILESTONE.IS_COMPLETED_IN</sortField>
-        <sortOrder>Asc</sortOrder>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>Owner</fields>
-        <fields>StartTime</fields>
-        <fields>EndTime</fields>
-        <fields>Status</fields>
-        <relatedList>RelatedLiveChatTranscriptList</relatedList>
-    </relatedLists>
     <relatedLists>
         <fields>SOLUTION.ISSUE</fields>
         <fields>SOLUTION.SOLUTION_NUMBER</fields>
@@ -396,14 +290,15 @@
     </relatedLists>
     <relatedObjects>ContactId</relatedObjects>
     <relatedObjects>AccountId</relatedObjects>
+    <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
     <showEmailCheckbox>true</showEmailCheckbox>
     <showHighlightsPanel>true</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
-    <showKnowledgeComponent>false</showKnowledgeComponent>
-    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
+    <showKnowledgeComponent>true</showKnowledgeComponent>
+    <showRunAssignmentRulesCheckbox>true</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>true</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0Y00000241yr</masterLabel>
+        <masterLabel>00h1a0000012AHJ</masterLabel>
         <sizeX>3</sizeX>
         <sizeY>4</sizeY>
         <summaryLayoutItems>

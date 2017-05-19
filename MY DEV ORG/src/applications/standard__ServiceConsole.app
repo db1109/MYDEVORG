@@ -4,6 +4,7 @@
     <detailPageRefreshMethod>none</detailPageRefreshMethod>
     <enableCustomizeMyTabs>false</enableCustomizeMyTabs>
     <enableKeyboardShortcuts>true</enableKeyboardShortcuts>
+    <enableListViewHover>true</enableListViewHover>
     <enableListViewReskin>true</enableListViewReskin>
     <enableMultiMonitorComponents>true</enableMultiMonitorComponents>
     <enablePinTabs>true</enablePinTabs>
@@ -173,15 +174,7 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
-    <tab>EmailMadness__c</tab>
-    <tab>Home_Page_Console</tab>
     <workspaceMappings>
-        <mapping>
-            <tab>EmailMadness__c</tab>
-        </mapping>
-        <mapping>
-            <tab>Home_Page_Console</tab>
-        </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>

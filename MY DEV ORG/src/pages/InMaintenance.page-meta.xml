@@ -5,9 +5,4 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default Force.com In Maintenance page</description>
     <label>InMaintenance</label>
-    <packageVersions>
-        <majorNumber>6</majorNumber>
-        <minorNumber>6</minorNumber>
-        <namespace>dsfs</namespace>
-    </packageVersions>
 </ApexPage>

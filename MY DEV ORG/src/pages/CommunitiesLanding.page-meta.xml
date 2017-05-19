@@ -5,9 +5,4 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default communities landing page</description>
     <label>CommunitiesLanding</label>
-    <packageVersions>
-        <majorNumber>6</majorNumber>
-        <minorNumber>6</minorNumber>
-        <namespace>dsfs</namespace>
-    </packageVersions>
 </ApexPage>

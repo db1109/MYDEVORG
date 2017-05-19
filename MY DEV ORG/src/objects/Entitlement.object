@@ -17,10 +17,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -44,7 +40,7 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>AccountId</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
     <fields>
@@ -54,7 +50,7 @@
     </fields>
     <fields>
         <fullName>BusinessHoursId</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -63,7 +59,7 @@
     </fields>
     <fields>
         <fullName>ContractLineItemId</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -72,11 +68,11 @@
     </fields>
     <fields>
         <fullName>IsPerIncident</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>RemainingCases</fullName>
@@ -84,7 +80,7 @@
     </fields>
     <fields>
         <fullName>ServiceContractId</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -98,7 +94,7 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>StatusIndicator</fullName>
@@ -106,22 +102,7 @@
     </fields>
     <fields>
         <fullName>Type</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Premium Support</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Great Support</fullName>
-                <default>true</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Mediocre Support</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <listViews>

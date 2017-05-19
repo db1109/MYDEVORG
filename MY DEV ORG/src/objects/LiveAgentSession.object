@@ -100,15 +100,6 @@
         <fullName>TimeInOnlineStatus</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <listViews>
-        <fullName>LA_Queue_LiveAgentSession</fullName>
-        <filterScope>Queue</filterScope>
-        <label>LA Queue</label>
-        <queue>LA_Queue</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Agent</customTabListAdditionalFields>
         <customTabListAdditionalFields>LoginTime</customTabListAdditionalFields>

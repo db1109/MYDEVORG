@@ -37,12 +37,5 @@
         <name>Investment__c</name>
         <relationshipLabel><!-- Inventory --></relationshipLabel>
     </fields>
-    <layouts>
-        <layout>Inventory Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

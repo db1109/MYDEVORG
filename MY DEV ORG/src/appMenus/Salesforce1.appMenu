@@ -5,7 +5,7 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Reports</name>
+        <name>MyDay</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
@@ -13,11 +13,35 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
-        <name>ProcessInstanceWorkitem</name>
+        <name>Tasks</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
         <name>Search</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>People</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Groups</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Reports</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Events</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>ProcessInstanceWorkitem</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>PendingInterviews</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
 </AppMenu>

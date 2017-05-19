@@ -25,10 +25,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -138,22 +134,6 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>In Approval Process</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Activated</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Draft</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
         <trackHistory>true</trackHistory>
         <type>Picklist</type>
     </fields>
@@ -242,16 +222,4 @@
         <searchResultsAdditionalFields>CONTRACT_TERM</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
-    <webLinks>
-        <fullName>dsfs__Send_with_DocuSign</fullName>
-        <availability>online</availability>
-        <description>This button will initiate a DocuSign Envelope that is linked to the Contract</description>
-        <displayType>button</displayType>
-        <linkType>javascript</linkType>
-        <masterLabel>Send with DocuSign</masterLabel>
-        <openType>onClickJavaScript</openType>
-        <protected>false</protected>
-        <url>{!REQUIRESCRIPT(&quot;/apex/dsfs__DocuSign_JavaScript&quot;)}
-DocuSign_CreateEnvelope();</url>
-    </webLinks>
 </CustomObject>

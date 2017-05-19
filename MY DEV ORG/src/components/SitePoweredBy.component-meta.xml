@@ -3,9 +3,4 @@
     <apiVersion>38.0</apiVersion>
     <description>Default Force.com site powered by component</description>
     <label>SitePoweredBy</label>
-    <packageVersions>
-        <majorNumber>6</majorNumber>
-        <minorNumber>6</minorNumber>
-        <namespace>dsfs</namespace>
-    </packageVersions>
 </ApexComponent>

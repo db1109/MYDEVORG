@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Small</formFactors>
+    <formFactors>Medium</formFactors>
+    <formFactors>Large</formFactors>
+    <label>Sales</label>
+    <navType>Standard</navType>
     <tab>standard-home</tab>
+    <tab>standard-Chatter</tab>
+    <tab>standard-WaveHome</tab>
     <tab>standard-Opportunity</tab>
+    <tab>standard-Quote</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Task</tab>
     <tab>standard-File</tab>
@@ -19,6 +26,6 @@
     <tab>standard-Case</tab>
     <tab>standard-News</tab>
     <tab>standard-ForecastingLightning</tab>
-    <tab>EmailMadness__c</tab>
-    <tab>Home_Page_Console</tab>
+    <tab>standard-EinsteinAnalytics</tab>
+    <uiType>Lightning</uiType>
 </CustomApplication>

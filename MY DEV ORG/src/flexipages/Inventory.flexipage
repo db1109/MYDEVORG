@@ -27,7 +27,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Inventory</masterLabel>
-    <pageTemplate>flexipage:recordHomeTemplateDesktop</pageTemplate>
     <sobjectType>Inventory__c</sobjectType>
+    <template>
+        <name>flexipage:recordHomeTemplateDesktop</name>
+    </template>
     <type>RecordPage</type>
 </FlexiPage>

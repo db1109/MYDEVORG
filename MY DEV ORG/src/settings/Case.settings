@@ -9,42 +9,21 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>priyanka.kohli@devorg.com</defaultCaseOwner>
+    <defaultCaseOwner>d.bolton@tcscpdprd.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>priyanka.kohli@devorg.com</defaultCaseUser>
+    <defaultCaseUser>d.bolton@tcscpdprd.com</defaultCaseUser>
     <emailToCase>
-        <enableEmailToCase>true</enableEmailToCase>
-        <enableHtmlEmail>true</enableHtmlEmail>
-        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
-        <enableThreadIDInBody>true</enableThreadIDInBody>
-        <enableThreadIDInSubject>true</enableThreadIDInSubject>
-        <notifyOwnerOnNewCaseEmail>true</notifyOwnerOnNewCaseEmail>
-        <overEmailLimitAction>Requeue</overEmailLimitAction>
-        <preQuoteSignature>false</preQuoteSignature>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <caseOwner>d.bolton@tcsdevorg.com</caseOwner>
-            <caseOwnerType>User</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>d.bolton@tcs.com</emailAddress>
-            <routingName>test</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <unauthorizedSenderAction>Bounce</unauthorizedSenderAction>
+        <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
     <enableCaseFeed>true</enableCaseFeed>
-    <enableDraftEmails>false</enableDraftEmails>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
-    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
-    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
     <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
     <useSystemEmailAddress>true</useSystemEmailAddress>
+    <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <webToCase>
         <caseOrigin>Web</caseOrigin>
         <defaultResponseTemplate>unfiled$public/SupportCaseCreatedWebInquiries</defaultResponseTemplate>
