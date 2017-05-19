@@ -1,0 +1,21 @@
+<aura:component controller="CaseCtrl" implements="force:appHostable,flexipage:availableForAllPageTypes" access="global">
+  <aura:handler name="init" value="{!this}" action="{!c.getCases}"/>
+    <aura:attribute name="code" type="String" default=""/>
+    <aura:attribute name="cases" type="Case[]" />
+  
+<div class="slds-scope">
+<div class="slds-col">
+ <table class="slds-table slds-table--bordered slds-table--cellbuffer">
+ <thead><tr class="slds-text-title--caps">
+ <th scope="col"><div class="slds-truncate">Number</div></th>
+ <th scope="col"><div class="slds-truncate">Subject</div></th>
+ <th scope="col"><div class="slds-truncate">Status</div></th>
+ </tr></thead>
+ <tbody><aura:iteration items="{!v.cases}" var="s"><tr>
+ <td><div class="slds-truncate" >{!c.casenumber}</div></td>
+     <td><div class="slds-truncate">{!con.subject}</div></td>
+ <td><div class="slds-truncate">{!con.status }</div></td>
+ </tr></aura:iteration></tbody>
+ </table>
+ </div></div>
+</aura:component>
