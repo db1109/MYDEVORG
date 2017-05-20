@@ -5,4 +5,9 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default communities login page</description>
     <label>CommunitiesLogin</label>
+    <packageVersions>
+        <majorNumber>6</majorNumber>
+        <minorNumber>6</minorNumber>
+        <namespace>dsfs</namespace>
+    </packageVersions>
 </ApexPage>

@@ -5,4 +5,9 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default Force.com home page for ideas sites</description>
     <label>IdeasHome</label>
+    <packageVersions>
+        <majorNumber>6</majorNumber>
+        <minorNumber>6</minorNumber>
+        <namespace>dsfs</namespace>
+    </packageVersions>
 </ApexPage>

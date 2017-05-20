@@ -7,4 +7,6 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
+    <tab>EmailMadness__c</tab>
+    <tab>Home_Page_Console</tab>
 </CustomApplication>

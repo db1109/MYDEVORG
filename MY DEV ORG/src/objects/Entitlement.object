@@ -40,7 +40,7 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>AccountId</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>MasterDetail</type>
     </fields>
     <fields>
@@ -50,7 +50,7 @@
     </fields>
     <fields>
         <fullName>BusinessHoursId</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -59,7 +59,7 @@
     </fields>
     <fields>
         <fullName>ContractLineItemId</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -68,11 +68,11 @@
     </fields>
     <fields>
         <fullName>IsPerIncident</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>RemainingCases</fullName>
@@ -80,7 +80,7 @@
     </fields>
     <fields>
         <fullName>ServiceContractId</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -94,7 +94,7 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>StatusIndicator</fullName>
@@ -102,7 +102,7 @@
     </fields>
     <fields>
         <fullName>Type</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Picklist</type>
     </fields>
     <listViews>

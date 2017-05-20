@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>d.bolton@tcs.com</contactEmail>
+    <label>Google App</label>
+    <oauthConfig>
+        <callbackUrl>https://script.google.com/macros/d/1fL4hA50F7qNzZ2THBMDnfFhUSCbnWqDbRMJqw33PShE4wQsKDggQFiEf/usercallback</callbackUrl>
+        <consumerKey>3MVG9HxRZv05HarQZfFyhY0H0GpE.2BahN0rcipGl1CN.eGiavCLbPMWi5lF1uHwyYtj0dZKLX1nn7WI_DZne</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+    </oauthConfig>
+</ConnectedApp>

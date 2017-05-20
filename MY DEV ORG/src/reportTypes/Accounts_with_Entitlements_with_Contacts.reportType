@@ -31,6 +31,11 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>RecordType</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Parent</field>
             <table>Account</table>
         </columns>
@@ -302,11 +307,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>SLAExpirationDate__c</field>
-            <table>Account</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>NOW__c</field>
             <table>Account</table>
         </columns>
         <masterLabel>Accounts</masterLabel>

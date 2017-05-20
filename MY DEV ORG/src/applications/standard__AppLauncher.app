@@ -3,4 +3,6 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
     <tab>standard-AppLauncher</tab>
+    <tab>EmailMadness__c</tab>
+    <tab>Home_Page_Console</tab>
 </CustomApplication>

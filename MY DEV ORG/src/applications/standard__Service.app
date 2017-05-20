@@ -9,4 +9,6 @@
     <tab>standard-Solution</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
+    <tab>EmailMadness__c</tab>
+    <tab>Home_Page_Console</tab>
 </CustomApplication>

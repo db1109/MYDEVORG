@@ -5,4 +5,9 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default Force.com template for site pages</description>
     <label>SiteTemplate</label>
+    <packageVersions>
+        <majorNumber>6</majorNumber>
+        <minorNumber>6</minorNumber>
+        <namespace>dsfs</namespace>
+    </packageVersions>
 </ApexPage>

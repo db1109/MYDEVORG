@@ -3,4 +3,9 @@
     <apiVersion>38.0</apiVersion>
     <description>Default Force.com site header component</description>
     <label>SiteHeader</label>
+    <packageVersions>
+        <majorNumber>6</majorNumber>
+        <minorNumber>6</minorNumber>
+        <namespace>dsfs</namespace>
+    </packageVersions>
 </ApexComponent>

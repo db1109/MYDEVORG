@@ -7,4 +7,6 @@
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
     <tab>standard-ContentFavorites</tab>
+    <tab>EmailMadness__c</tab>
+    <tab>Home_Page_Console</tab>
 </CustomApplication>

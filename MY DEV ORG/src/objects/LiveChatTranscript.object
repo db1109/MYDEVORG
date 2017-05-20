@@ -188,6 +188,15 @@
     <fields>
         <fullName>WaitTime</fullName>
     </fields>
+    <listViews>
+        <fullName>LA_Queue_LiveChatTranscript</fullName>
+        <filterScope>Queue</filterScope>
+        <label>LA Queue</label>
+        <queue>LA_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>LiveChatVisitor</customTabListAdditionalFields>
         <customTabListAdditionalFields>StartTime</customTabListAdditionalFields>

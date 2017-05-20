@@ -25,4 +25,10 @@
         <label>Closed</label>
         <closed>true</closed>
     </standardValue>
+    <standardValue>
+        <fullName>RCA Complete</fullName>
+        <default>false</default>
+        <label>RCA Complete</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>

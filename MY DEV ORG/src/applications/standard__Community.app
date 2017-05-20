@@ -11,4 +11,6 @@
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
     <tab>standard-Questions</tab>
+    <tab>EmailMadness__c</tab>
+    <tab>Home_Page_Console</tab>
 </CustomApplication>

@@ -1,0 +1,4 @@
+<apex:page controller="SimpleDynamicController">
+    <apex:dynamicComponent componentValue="{!DynamicComplex}" />
+    
+</apex:page>
