@@ -6752,6 +6752,362 @@
         <field>dsfs__DocuSign_Status__c.dsfs__Voided_Reason__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Account-Account %28Sales%29 Layout</layout>
+        <recordType>Account.UltimateParent</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account %28Support%29 Layout</layout>
+        <recordType>Account.Child_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campaign-Campaign Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignMember-Campaign Member Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case %28Support%29 Layout</layout>
+        <recordType>Case.Generic</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Close Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseMilestone-Case Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CollaborationGroup-Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContentVersion-Content Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract-Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractLineItem-Contract Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DandBCompany-D%26B Company Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DocLink__c-DocLink Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmailMadness__c-EmailMadness Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmailMessage-Email Message Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Entitlement-Entitlement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Global-Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HierarchyShare__c-Hierarchy Share Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Idea-Idea Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Inventory__c-Inventory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Investment__c-Investment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveAgentSession-Live Agent Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscript-Live Chat Transcript Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptEvent-Live Chat Transcript Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatVisitor-Live Chat Visitor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Macro-Macro Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrderItem-Order Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pricebook2-Price Book Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PricebookEntry-Price Book Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Q_A__c-Q%26A Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceContract-Service Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SocialPersona-Social Persona Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Solution-Solution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>User-User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvAccount-User Provisioning Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Apex_Test_Result__c-copado__Apex Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__AuxiliaryObject__c-copado__AuxiliaryObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Branch_Management_Permission__c-copado__Branch Management Permission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Build_Task__c-copado__Build Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Continuous_Integration_Permission__c-copado__Continuous Integration Permission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Continuous_Integration__c-copado__Continuous Integration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Copado_Notification__c-copado__Copado Notification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment_Flow_Step__c-copado__Deployment Flow Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment_Flow__c-copado__Deployment Flow Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment_History__c-copado__Copado Deployment History Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment_Job__c-copado__Deployment Job Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment_Task__c-copado__Deployment Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment__c-copado__Deployment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Destination_Org__c-copado__Destination Org Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Environment__c-copado__Environment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Environmental_Variable__c-copado__Environment Variable Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Epic__c-copado__Epic Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Git_Backup__c-copado__Git Backup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Git_Commit__c-copado__Git Commit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Git_Org_Commit__c-copado__Git Org Commit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Git_Repository__c-copado__Git Server Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Kanban_Board__c-copado__Kanban Board Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__OrgDiff__c-copado__OrgDiff Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Org__c-copado__Org Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Persona_Permission__c-copado__Persona Permission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Persona__c-copado__Persona Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Project__c-copado__Project Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Promoted_User_Story__c-copado__Promoted User Story Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Promotion__c-copado__Promotion Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Release__c-copado__Release Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Scheduled_Job_Run__c-copado__Scheduled Job Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Scheduled_Job__c-copado__Scheduled Job Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Group_Org_Credential__c-copado__Selenium Group Org Credential Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Group_Test_Suite__c-copado__Selenium Group Test Suite Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Group_Variable__c-copado__Selenium Group Variable Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Locator_Reference__c-copado__Selenium Locator Reference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Locator__c-copado__Selenium Locator Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Settings__c-copado__Selenium Settings Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Case_Per_Suite__c-copado__Selenium Test Case per Suite Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Case__c-copado__Selenium Test Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Group__c-copado__Selenium Test Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Result__c-copado__Selenium Test Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
+        <recordType>copado__Selenium_Test_Run__c.copado__Salesforce</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Run__c-copado__Web App Selenium Test Run Layout</layout>
+        <recordType>copado__Selenium_Test_Run__c.copado__Generic_Web_Application</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Suite__c-copado__Selenium Test Suite Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Snapshot_Difference__c-copado__Snapshot Difference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Sprint__c-copado__Sprint Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Step__c-copado__Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Test_Run_Step__c-copado__Test Execution Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Test_Run__c-copado__Test Execution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Test_Script_Step__c-copado__Script Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Test_Script__c-copado__Test Script Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Persona_Assignment__c-copado__User Persona Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story_Commit__c-copado__User Story Commit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story_Metadata__c-copado__User Story Metadata Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-copado__User Story Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dsfs__DocuSignAccountConfiguration__c-dsfs__DocuSignAccountConfiguration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dsfs__DocuSign_Envelope_Document__c-dsfs__DocuSign Envelope Document Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dsfs__DocuSign_Envelope_Recipient__c-dsfs__DocuSign Envelope Recipient Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dsfs__DocuSign_Envelope__c-dsfs__DocuSign Envelope Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dsfs__DocuSign_Recipient_Status__c-dsfs__DocuSign Recipient Status Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dsfs__DocuSign_Status__c-dsfs__DocuSign Status With View Button</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
