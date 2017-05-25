@@ -684,6 +684,7 @@
     <members>HAS_Trigger</members>
     <members>INVTrigger</members>
     <members>LA</members>
+    <members>ProcessCaseAttachment</members>
     <members>UpdEnts</members>
     <members>copado__ApexTestResultTrigger</members>
     <members>copado__ApexTestTrigger</members>
@@ -4751,6 +4752,7 @@
   </types>
   <types>
     <members>AccountTest-1</members>
+    <members>EmailMessageAttachment-1</members>
     <members>LiveAgentTranscriptChatter-1</members>
     <members>Synch_Account-1</members>
     <members>TEST-1</members>
@@ -4760,6 +4762,7 @@
   </types>
   <types>
     <members>AccountTest</members>
+    <members>EmailMessageAttachment</members>
     <members>LiveAgentTranscriptChatter</members>
     <members>Synch_Account</members>
     <members>TEST</members>

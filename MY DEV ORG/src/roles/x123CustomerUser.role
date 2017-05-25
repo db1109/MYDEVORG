@@ -6,5 +6,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>123 Customer User</name>
     <opportunityAccessLevel>None</opportunityAccessLevel>
-    <parentRole>CEO</parentRole>
+    <parentRole>CFO</parentRole>
 </Role>
