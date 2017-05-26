@@ -42,6 +42,10 @@
         <name>DeliveryStatus</name>
     </webLinks>
     <webLinks>
+        <label><!-- Send_Bulk_SMS --></label>
+        <name>LiveText__Send_Bulk_SMS</name>
+    </webLinks>
+    <webLinks>
         <label><!-- TEST --></label>
         <name>TEST</name>
     </webLinks>

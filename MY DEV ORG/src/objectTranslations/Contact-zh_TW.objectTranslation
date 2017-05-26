@@ -21,6 +21,18 @@
         </picklistValues>
     </fields>
     <webLinks>
+        <label><!-- Opt_in_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_in_for_Text_Messages_list</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opt_out_for_Text_Messaging_List --></label>
+        <name>LiveText__Opt_out_for_Text_Messaging_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Bulk_SMS2 --></label>
+        <name>LiveText__Send_Bulk_SMS2</name>
+    </webLinks>
+    <webLinks>
         <label><!-- Send_with_DocuSign --></label>
         <name>dsfs__Send_with_DocuSign</name>
     </webLinks>

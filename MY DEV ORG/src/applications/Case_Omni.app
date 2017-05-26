@@ -189,6 +189,12 @@
         <showKnowledgeArticles>false</showKnowledgeArticles>
     </liveAgentConfig>
     <primaryTabColor>#0070D2</primaryTabColor>
+    <pushNotifications>
+        <pushNotification>
+            <fieldNames>LiveText__Status__c</fieldNames>
+            <objectName>LiveText__Conversation_Header__c</objectName>
+        </pushNotification>
+    </pushNotifications>
     <saveUserSessions>true</saveUserSessions>
     <tab>Home_Page_Console</tab>
     <tab>standard-Case</tab>

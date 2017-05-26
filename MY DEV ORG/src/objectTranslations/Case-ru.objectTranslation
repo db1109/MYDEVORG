@@ -81,6 +81,10 @@
         <name>Generic</name>
     </recordTypes>
     <webLinks>
+        <label><!-- Send_Bulk_SMS --></label>
+        <name>LiveText__Send_Bulk_SMS</name>
+    </webLinks>
+    <webLinks>
         <label><!-- UpsellCrosssellOpportunity --></label>
         <name>UpsellCrosssellOpportunity</name>
     </webLinks>

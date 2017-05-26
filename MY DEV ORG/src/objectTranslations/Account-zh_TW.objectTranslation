@@ -29,6 +29,18 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Active --></label>
+        <name>LiveText__Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- NOW --></label>
         <name>NOW__c</name>
     </fields>
@@ -91,6 +103,18 @@
     <webLinks>
         <label><!-- Billing --></label>
         <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opt_in_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_in_for_Text_Messages_list</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opt_out_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_out_for_Text_Messages_list</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Bulk_SMS --></label>
+        <name>LiveText__Send_Bulk_SMS</name>
     </webLinks>
     <webLinks>
         <label><!-- Send_with_DocuSign --></label>

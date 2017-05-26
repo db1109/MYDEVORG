@@ -27,6 +27,114 @@
     <members>LightningLoginFormControllerTest</members>
     <members>LightningSelfRegisterController</members>
     <members>LightningSelfRegisterControllerTest</members>
+    <members>LiveText__AcceptedConversationInfo</members>
+    <members>LiveText__AcceptedConversationInfoTest</members>
+    <members>LiveText__AccessController</members>
+    <members>LiveText__AccessControllerTest</members>
+    <members>LiveText__AccountWrapper</members>
+    <members>LiveText__AccountWrapperTest</members>
+    <members>LiveText__ActionResult</members>
+    <members>LiveText__ActionResultTest</members>
+    <members>LiveText__AssignAutoLinkingRecordTypeHelper</members>
+    <members>LiveText__AssignAutoLinkingRecordTypeHelperTest</members>
+    <members>LiveText__AssignScreenPopRecordTypeHelper</members>
+    <members>LiveText__AssignScreenPopRecordTypeHelperTest</members>
+    <members>LiveText__AssignUserHelper</members>
+    <members>LiveText__AssignUserHelperTest</members>
+    <members>LiveText__Callout</members>
+    <members>LiveText__CalloutTest</members>
+    <members>LiveText__CampaignMemberUpdateStatus</members>
+    <members>LiveText__Channel</members>
+    <members>LiveText__Channel_Test</members>
+    <members>LiveText__CommonTestHelper</members>
+    <members>LiveText__ConsoleIntegrationController</members>
+    <members>LiveText__ConsoleIntegrationControllerTest</members>
+    <members>LiveText__Constant</members>
+    <members>LiveText__ConversationDetailController</members>
+    <members>LiveText__ConversationDetailControllerTest</members>
+    <members>LiveText__ConversationHeaderBatch</members>
+    <members>LiveText__ConversationHeaderBatchTest</members>
+    <members>LiveText__ConversationHeaderScheduler</members>
+    <members>LiveText__ConversationHeaderSchedulerTest</members>
+    <members>LiveText__ConversationHeaderTriggerHandler</members>
+    <members>LiveText__ConversationHeaderTriggerHandlerTest</members>
+    <members>LiveText__ConversationInfo</members>
+    <members>LiveText__CountryCodeUtil</members>
+    <members>LiveText__CountryCodeUtilTest</members>
+    <members>LiveText__CustomLookupController</members>
+    <members>LiveText__CustomLookupControllerTest</members>
+    <members>LiveText__DataAccessLayerFieldMapping</members>
+    <members>LiveText__DataAccessLayerInterface</members>
+    <members>LiveText__DeleteMessageAction</members>
+    <members>LiveText__DeleteMessageActionTest</members>
+    <members>LiveText__DeleteSmsScheduleItem</members>
+    <members>LiveText__HTTPRequestMockTest</members>
+    <members>LiveText__LiveTextAdminController</members>
+    <members>LiveText__LiveTextAdminControllerTest</members>
+    <members>LiveText__LiveTextBulkSmsController</members>
+    <members>LiveText__LiveTextBulkSmsControllerTest</members>
+    <members>LiveText__LiveTextCampaignBulkSMSController</members>
+    <members>LiveText__LiveTextCampaignBulkSMSControllerTest</members>
+    <members>LiveText__LiveTextChatController</members>
+    <members>LiveText__LiveTextChatControllerTest</members>
+    <members>LiveText__LiveTextController</members>
+    <members>LiveText__LiveTextControllerTest</members>
+    <members>LiveText__LiveTextOptinStatusController</members>
+    <members>LiveText__LiveTextOptinStatusControllerTest</members>
+    <members>LiveText__LiveTextPicController</members>
+    <members>LiveText__LiveTextPicControllerTest</members>
+    <members>LiveText__MigrateCurrentOptInStatusBatch</members>
+    <members>LiveText__NamespaceProvider</members>
+    <members>LiveText__PhoneInformation</members>
+    <members>LiveText__PhoneNumberRelatedObjects</members>
+    <members>LiveText__PhoneNumberRelatedObjectsTest</members>
+    <members>LiveText__PostInstallHandler</members>
+    <members>LiveText__PostInstallHandlerTest</members>
+    <members>LiveText__PrepObjectCache</members>
+    <members>LiveText__PrepObjectCacheScheduler</members>
+    <members>LiveText__QueueItemRequest</members>
+    <members>LiveText__QueueMessageAction</members>
+    <members>LiveText__QueueMessageActionTest</members>
+    <members>LiveText__QuickTextController</members>
+    <members>LiveText__QuickTextControllerTest</members>
+    <members>LiveText__QuickTextResult</members>
+    <members>LiveText__QuickTextResultTest</members>
+    <members>LiveText__REST_Message</members>
+    <members>LiveText__REST_Notification_Endpoint</members>
+    <members>LiveText__REST_Notification_Endpoint_Test</members>
+    <members>LiveText__RelatedObjectsInformation</members>
+    <members>LiveText__RetrievePreferredPhoneNumber</members>
+    <members>LiveText__RetrievePreferredPhoneNumberTest</members>
+    <members>LiveText__RetrievePrefferedPhoneNumber</members>
+    <members>LiveText__RoutableInboundItem</members>
+    <members>LiveText__RouteInboundConversationAction</members>
+    <members>LiveText__RouteInboundConversationActionTest</members>
+    <members>LiveText__SMSTextListRoutingInfo</members>
+    <members>LiveText__SMSTextTriggerHandler</members>
+    <members>LiveText__SObjectWrapper</members>
+    <members>LiveText__ScheduleItem</members>
+    <members>LiveText__ScheduleMessageAction</members>
+    <members>LiveText__ScheduleMessageActionTest</members>
+    <members>LiveText__Semaphore</members>
+    <members>LiveText__SemaphoreTest</members>
+    <members>LiveText__SendMessageAction</members>
+    <members>LiveText__SendMessageActionTest</members>
+    <members>LiveText__SendMessageRequest</members>
+    <members>LiveText__SendSMSToCampaignBatch</members>
+    <members>LiveText__SetMessageStatusAction</members>
+    <members>LiveText__SetMessageStatusActionTest</members>
+    <members>LiveText__SetMessageStatusRequest</members>
+    <members>LiveText__TriggerManager</members>
+    <members>LiveText__UninstallScriptHandler</members>
+    <members>LiveText__UninstallScriptHandlerTest</members>
+    <members>LiveText__UnitTestObjectBuilder</members>
+    <members>LiveText__UpdateCampaignMemberStatusAction</members>
+    <members>LiveText__UpdateCampaignMemberStatusActionTest</members>
+    <members>LiveText__UpdateITRMessageAction</members>
+    <members>LiveText__UpdateITRMessageActionTest</members>
+    <members>LiveText__UpdateInboundItem</members>
+    <members>LiveText__Util</members>
+    <members>LiveText__UtilTest</members>
     <members>LookupController</members>
     <members>MilestoneAtFuture</members>
     <members>MyProfilePageController</members>
@@ -473,6 +581,8 @@
     <name>ApexClass</name>
   </types>
   <types>
+    <members>LiveText__ConversationDetail</members>
+    <members>LiveText__ScriptsComponent</members>
     <members>SiteFooter</members>
     <members>SiteHeader</members>
     <members>SiteLogin</members>
@@ -538,6 +648,31 @@
     <members>LAPRECHAT</members>
     <members>LIVEAGENT</members>
     <members>LightningVFLookup</members>
+    <members>LiveText__ConsoleIntegrationPage</members>
+    <members>LiveText__CustomLookup</members>
+    <members>LiveText__GlobalOptIn</members>
+    <members>LiveText__GlobalOptOut</members>
+    <members>LiveText__GlobalSendTextMessage</members>
+    <members>LiveText__LiveText</members>
+    <members>LiveText__LiveTextAdmin</members>
+    <members>LiveText__LiveTextBulkSms</members>
+    <members>LiveText__LiveTextCampaignBulkSMS</members>
+    <members>LiveText__LiveTextChat</members>
+    <members>LiveText__LiveTextOptInAccount</members>
+    <members>LiveText__LiveTextOptInContact</members>
+    <members>LiveText__LiveTextOptInLead</members>
+    <members>LiveText__LiveTextOptOutAccount</members>
+    <members>LiveText__LiveTextOptOutContact</members>
+    <members>LiveText__LiveTextOptOutLead</members>
+    <members>LiveText__LiveTextOptinStatusPage</members>
+    <members>LiveText__LiveTextPic</members>
+    <members>LiveText__LiveTextSendTextAccount</members>
+    <members>LiveText__LiveTextSendTextCase</members>
+    <members>LiveText__LiveTextSendTextContact</members>
+    <members>LiveText__LiveTextSendTextLead</members>
+    <members>LiveText__LiveTextSendTextOpportunity</members>
+    <members>LiveText__LiveTextSendTextToCampaignMembers</members>
+    <members>LiveText__QuickText</members>
     <members>MyProfilePage</members>
     <members>OLARK</members>
     <members>SiteLogin</members>
@@ -684,6 +819,9 @@
     <members>HAS_Trigger</members>
     <members>INVTrigger</members>
     <members>LA</members>
+    <members>LiveText__ConversationHeaderTrigger</members>
+    <members>LiveText__OptInStatusAfterInsertTrigger</members>
+    <members>LiveText__SMSTextTrigger</members>
     <members>ProcessCaseAttachment</members>
     <members>UpdEnts</members>
     <members>copado__ApexTestResultTrigger</members>
@@ -817,6 +955,7 @@
     <members>Contact.QuickStartLayout</members>
     <members>Inventory__c.CL</members>
     <members>Investment__c.Investment</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Conversation_Header_Layout</members>
     <name>CompactLayout</name>
   </types>
   <types>
@@ -841,6 +980,8 @@
   <types>
     <members>Case_Omni</members>
     <members>Investment_App_Lightning</members>
+    <members>LiveText__LiveText_Admin</members>
+    <members>LiveText__LiveText_Console</members>
     <members>copado__Copado</members>
     <members>copado__Copado_Branch_Management</members>
     <members>copado__Copado_Change_Management</members>
@@ -866,6 +1007,7 @@
   <types>
     <members>AUTOLOGIN</members>
     <members>ContactSearch</members>
+    <members>LiveText__LiveText_Panel</members>
     <members>Scrollin</members>
     <name>CustomApplicationComponent</name>
   </types>
@@ -896,6 +1038,7 @@
     <members>Account.LastModifiedDate</members>
     <members>Account.LastReferencedDate</members>
     <members>Account.LastViewedDate</members>
+    <members>Account.LiveText__Active__c</members>
     <members>Account.MasterRecordId</members>
     <members>Account.NOW__c</members>
     <members>Account.NaicsCode</members>
@@ -1848,6 +1991,194 @@
     <members>LiveChatVisitor.Name</members>
     <members>LiveChatVisitor.SessionKey</members>
     <members>LiveChatVisitor.SystemModstamp</members>
+    <members>LiveText__Agent_Status__c.LiveText__Status__c</members>
+    <members>LiveText__Agent_Status__c.LiveText__User__c</members>
+    <members>LiveText__Associated_Agents__c.LiveText__LiveText_Number__c</members>
+    <members>LiveText__Associated_Agents__c.LiveText__User__c</members>
+    <members>LiveText__Auto_Linking__c.LiveText__LiveText_Number__c</members>
+    <members>LiveText__Auto_Linking__c.LiveText__Record_Type__c</members>
+    <members>LiveText__Campaign_Send_Member__c.LiveText__CampaignMemberId__c</members>
+    <members>LiveText__Campaign_Send_Member__c.LiveText__CampaignSend__c</members>
+    <members>LiveText__Campaign_Send_Member__c.LiveText__FromNumber__c</members>
+    <members>LiveText__Campaign_Send_Member__c.LiveText__Phone__c</members>
+    <members>LiveText__Campaign_Send_Member__c.LiveText__isProcessed__c</members>
+    <members>LiveText__Campaign_Send__c.LiveText__BatchId__c</members>
+    <members>LiveText__Campaign_Send__c.LiveText__Campaign__c</members>
+    <members>LiveText__Campaign_Send__c.LiveText__EndTime__c</members>
+    <members>LiveText__Campaign_Send__c.LiveText__ErrorStatus__c</members>
+    <members>LiveText__Campaign_Send__c.LiveText__Message__c</members>
+    <members>LiveText__Campaign_Send__c.LiveText__OptoutStatus__c</members>
+    <members>LiveText__Campaign_Send__c.LiveText__ResponseStatus__c</members>
+    <members>LiveText__Campaign_Send__c.LiveText__StartTime__c</members>
+    <members>LiveText__Campaign_Send__c.LiveText__SuccessStatus__c</members>
+    <members>LiveText__Campaign_Send__c.LiveText__SupportNumber__c</members>
+    <members>LiveText__ConfigurationSettings__c.LiveText__Account_Id__c</members>
+    <members>LiveText__ConfigurationSettings__c.LiveText__Auth_Token__c</members>
+    <members>LiveText__ConfigurationSettings__c.LiveText__Disconnect_Sound_Enabled__c</members>
+    <members>LiveText__ConfigurationSettings__c.LiveText__Endpoint_URL__c</members>
+    <members>LiveText__ConfigurationSettings__c.LiveText__Is_Valid_Credentials__c</members>
+    <members>LiveText__ConfigurationSettings__c.LiveText__Org_Type__c</members>
+    <members>LiveText__ConfigurationSettings__c.LiveText__Version__c</members>
+    <members>LiveText__ConfigurationSettings__c.LiveText__oAuth_URL__c</members>
+    <members>LiveText__Conversation_Event__c.LiveText__Conversation_Header__c</members>
+    <members>LiveText__Conversation_Event__c.LiveText__Event__c</members>
+    <members>LiveText__Conversation_Event__c.LiveText__Linked_Object__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__AcceptedBy__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Account__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Activated_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Case__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Channel_Type__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Contact__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__ConversationReopened__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__ConversationType__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Conversation_Identifier__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__ElapsedTime__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__End_Chat_Message__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__EndedTime__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Formatted_Originating_Number_To_Display__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Formatted_Originating_Number__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Formatted_Transcript_1__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Formatted_Transcript_2__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__HandleTime__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__HandledBy__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Hour_Alaska_Standard_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Hour_Central_Daylight_Savings_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Hour_Central_Standard_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Hour_Eastern_Daylight_Savings_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Hour_Eastern_Standard_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Hour_Hawaii_Standard_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Hour_Mountain_Daylight_Savings_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Hour_Mountain_Standard_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Hour_Pacific_Daylight_Savings_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Hour_Pacific_Standard_Time__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Lead__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__LiveTextPhoneNumberLabel__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__LiveText_Number__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__MO_Count__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__MT_Automated_Count__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__MT_Count__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__MessagePreview__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Offline_Hours_Message__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Opportunity__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Originating_Number__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Server_Instance__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__SessionReopenedTime__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Status__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Support_Number__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Thumbnail_Photo_Url__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__TimeDifference__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__TimeDiffrence__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Total_Message_Count__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Transcript_Summary_1__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Transcript_Summary_2__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__UnNormalized_LiveText_Number__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__UnNormalized_Orginating_Number__c</members>
+    <members>LiveText__Conversation_Header__c.LiveText__isAccepted__c</members>
+    <members>LiveText__Current_Optin_Status__c.LiveText__LiveMessage_Channel__c</members>
+    <members>LiveText__Current_Optin_Status__c.LiveText__Status__c</members>
+    <members>LiveText__Current_Optin_Status__c.LiveText__Subscriber_Channel_ID__c</members>
+    <members>LiveText__Current_Optin_Status__c.LiveText__UID__c</members>
+    <members>LiveText__Exception__c.LiveText__AssociatedUser__c</members>
+    <members>LiveText__Exception__c.LiveText__ErrorDescription__c</members>
+    <members>LiveText__Exception__c.LiveText__ObjectId__c</members>
+    <members>LiveText__Exception__c.LiveText__Priority__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Account__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Available_Agents__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Campaign_Send_Member__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Case__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Contact__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Formatted_Originating_Number__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__HTML_Transcript__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__ITR_Context__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Is_Within_Business_Hours__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Last_Modified_Text_Session_Header__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Lead__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__LiveText_Number__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Message__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Mo_Message_Counter__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Opportunity__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Opt_In_Status__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Originating_Number__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Queue_Name__c</members>
+    <members>LiveText__ITR_Message__c.LiveText__Text_Transcript__c</members>
+    <members>LiveText__LiveTextGlobalSettings__c.LiveText__Active_Status_Purge_Hours__c</members>
+    <members>LiveText__LiveTextGlobalSettings__c.LiveText__GlobalTriggerExecutionEnabled__c</members>
+    <members>LiveText__LiveTextGlobalSettings__c.LiveText__New_Status_Purge_Hours__c</members>
+    <members>LiveText__LiveTextGlobalSettings__c.LiveText__Offline_Status_Purge_Hours__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Auto_Response_Message__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Business_Hours__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Channel_Type__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Chat_End_Message__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__CreateEvent__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__CreateTask__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Critical_Alert_Time__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Formatted_Support_Number__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__ISOCountryCode__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__ITR_Enabled__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Initial_Message__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__International_Live_Text_Number__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__New_Custom_Objects_Tabs__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__New_Objects_Tabs__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__No_Available_Users_Message__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Notify_Users_During_Off_Hours__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Number__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Offline_Hours_Message__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Omni_channel_Queue__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Prepend_Country_Code__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Screen_Pop_Default_Record_Type__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Search_Exclusively_With_Unique_Id__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Show_New_Account_Tab__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Show_New_Case_Tab__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Show_New_Contact_Tab__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Show_New_Lead_Tab__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Show_New_Opportunity_Tab__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Text_Session_Reuse_Time_seconds__c</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Validated__c</members>
+    <members>LiveText__OptInStatus__c.LiveText__LiveTextNumber__c</members>
+    <members>LiveText__OptInStatus__c.LiveText__Status__c</members>
+    <members>LiveText__OptInStatus__c.LiveText__SubscriberPhoneNumber__c</members>
+    <members>LiveText__ProfileNames__c.LiveText__Value__c</members>
+    <members>LiveText__Recent_Campaign_Send_Member__c.LiveText__CampaignSendMember__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__Account__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__Contact__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__EnforceObjectPresence__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__Error_Message__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__Lead__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__LiveText_Number__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__Message_Status__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__Message__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__Object_Id__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__Opt_in_Status__c</members>
+    <members>LiveText__SMS_Message__c.LiveText__To_Phone_Number__c</members>
+    <members>LiveText__SMS_Schedule__c.LiveText__Account__c</members>
+    <members>LiveText__SMS_Schedule__c.LiveText__Contact__c</members>
+    <members>LiveText__SMS_Schedule__c.LiveText__EnforceObjectPresence__c</members>
+    <members>LiveText__SMS_Schedule__c.LiveText__Lead__c</members>
+    <members>LiveText__SMS_Schedule__c.LiveText__LiveText_Number__c</members>
+    <members>LiveText__SMS_Schedule__c.LiveText__Message__c</members>
+    <members>LiveText__SMS_Schedule__c.LiveText__Object_Id__c</members>
+    <members>LiveText__SMS_Schedule__c.LiveText__Reference_Id__c</members>
+    <members>LiveText__SMS_Schedule__c.LiveText__Schedule_Date__c</members>
+    <members>LiveText__SMS_Schedule__c.LiveText__To_Phone_Number__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Conversation_Header__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__End_Chat_Message__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__First_Name__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Formatted_Originating_Number__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Initial_Message__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Last_Name__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Message__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__OriginTimestamp__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Originating_Number__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Sent_To_Customer__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Source__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Support_Number__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Thumbnail_Photo_Url__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Time_Zone__c</members>
+    <members>LiveText__SMS_Text__c.LiveText__Unique_SMS__c</members>
+    <members>LiveText__ScreenPopSequence__c.LiveText__LiveText_Number__c</members>
+    <members>LiveText__ScreenPopSequence__c.LiveText__Record_Type__c</members>
+    <members>LiveText__ScreenPopSequence__c.LiveText__Sequence__c</members>
+    <members>LiveText__Storage__c.LiveText__StorageTextData__c</members>
     <members>Macro.CreatedById</members>
     <members>Macro.CreatedDate</members>
     <members>Macro.Description</members>
@@ -3110,6 +3441,293 @@
     <name>CustomField</name>
   </types>
   <types>
+    <members>LiveText__APICalloutFailureMsg</members>
+    <members>LiveText__AcceptLabel</members>
+    <members>LiveText__AccountDetailPBTitle</members>
+    <members>LiveText__AccountIdInput</members>
+    <members>LiveText__AccountNameLbl</members>
+    <members>LiveText__ActionLbl</members>
+    <members>LiveText__ActionResultLTNumberNotFoundError</members>
+    <members>LiveText__ActionResultMultiplePhonesErrorSuffix</members>
+    <members>LiveText__ActionResultNoPhoneError</members>
+    <members>LiveText__ActionResultPhoneNotOptedIn</members>
+    <members>LiveText__ActionResultScheduleForFacebookError</members>
+    <members>LiveText__ActionResultShortCodeInternationalAttemptError</members>
+    <members>LiveText__ActiveChatSendMsgPlaceholderLbl</members>
+    <members>LiveText__ActiveStatus</members>
+    <members>LiveText__AddFacebookPageLabel</members>
+    <members>LiveText__AddLbl</members>
+    <members>LiveText__AddSupportNoBtn</members>
+    <members>LiveText__AdminPageTitleLbl</members>
+    <members>LiveText__AdminPgSubTitleLbl</members>
+    <members>LiveText__AllTranscriptsBtnLbl</members>
+    <members>LiveText__AllowNewLblHelp</members>
+    <members>LiveText__AssignLbl</members>
+    <members>LiveText__AssignUserLbl</members>
+    <members>LiveText__AssignUsersDescLbl</members>
+    <members>LiveText__AutoLinkingDescriptionLbl</members>
+    <members>LiveText__AutoLinkingHeaderLbl</members>
+    <members>LiveText__AutoLinkingLbl</members>
+    <members>LiveText__AutoResDetailLbl</members>
+    <members>LiveText__AutoResponseMsgLbl</members>
+    <members>LiveText__AvailableMembersLbl</members>
+    <members>LiveText__AvailableRecordTypesLbl</members>
+    <members>LiveText__BasicInfoTitle</members>
+    <members>LiveText__BasicInformationLbl</members>
+    <members>LiveText__BoldTextTooltipPrefixLbl</members>
+    <members>LiveText__BoldTextTooltipSuffixLbl</members>
+    <members>LiveText__BulkBackButton</members>
+    <members>LiveText__BulkBeforeUnload</members>
+    <members>LiveText__BulkCampaignAfterOptOutStatusTooltip</members>
+    <members>LiveText__BulkCampaignAfterResponseStatusTooltip</members>
+    <members>LiveText__BulkCampaignAfterSendStatusTooltip</members>
+    <members>LiveText__BulkCampaignBatchLockError</members>
+    <members>LiveText__BulkCampaignBatchStatusAborted</members>
+    <members>LiveText__BulkCampaignBatchStatusFailed</members>
+    <members>LiveText__BulkCampaignBatchStatusFinish</members>
+    <members>LiveText__BulkCampaignCancel</members>
+    <members>LiveText__BulkCampaignDoNotChangeStatus</members>
+    <members>LiveText__BulkCampaignDuplicateStatusTitle</members>
+    <members>LiveText__BulkCampaignDuplicateStatusTooltip</members>
+    <members>LiveText__BulkCampaignFilterByStatusTitle</members>
+    <members>LiveText__BulkCampaignFilterByStatusTooltip</members>
+    <members>LiveText__BulkCampaignNoStatusError</members>
+    <members>LiveText__BulkCampaignNotActiveError</members>
+    <members>LiveText__BulkCampaignNumberOfRecipientsChanged</members>
+    <members>LiveText__BulkCampaignPhoneNumberTooltip</members>
+    <members>LiveText__BulkCampaignPhoneSelectDefault</members>
+    <members>LiveText__BulkCampaignPhoneSelectDefaultError</members>
+    <members>LiveText__BulkCampaignPhoneTitle</members>
+    <members>LiveText__BulkCampaignRecordLimitLongcodeSuffixError</members>
+    <members>LiveText__BulkCampaignRecordLimitPrefixError</members>
+    <members>LiveText__BulkCampaignRecordLimitSuffixError</members>
+    <members>LiveText__BulkCampaignReturnOnBrowserError</members>
+    <members>LiveText__BulkCampaignStatusAfterOptOutTitle</members>
+    <members>LiveText__BulkCampaignStatusAfterResponseTitle</members>
+    <members>LiveText__BulkCampaignStatusAfterSendTitle</members>
+    <members>LiveText__BulkCampaignTabTitle</members>
+    <members>LiveText__BulkCampaignTextBodyTooltip</members>
+    <members>LiveText__BulkCampaignZeroMembersError</members>
+    <members>LiveText__BulkCancelButton</members>
+    <members>LiveText__BulkCloseWizard</members>
+    <members>LiveText__BulkConfirmSendingButton</members>
+    <members>LiveText__BulkCongrats</members>
+    <members>LiveText__BulkDoneButton</members>
+    <members>LiveText__BulkNoMobilePhoneSuffix</members>
+    <members>LiveText__BulkNoPhoneAssignedError</members>
+    <members>LiveText__BulkNoPhoneError</members>
+    <members>LiveText__BulkNoPhoneSuffix</members>
+    <members>LiveText__BulkNoSendTextError</members>
+    <members>LiveText__BulkPhoneOrRecipientsError</members>
+    <members>LiveText__BulkRecipientSelectedSuffix</members>
+    <members>LiveText__BulkRecipientsSelectedSuffix</members>
+    <members>LiveText__BulkRecordLimitPrefix</members>
+    <members>LiveText__BulkRecordLimitSuffix</members>
+    <members>LiveText__BulkSendTextButton</members>
+    <members>LiveText__BulkSendTextTitle</members>
+    <members>LiveText__BulkSendToPrefix</members>
+    <members>LiveText__BulkSendToSuffix</members>
+    <members>LiveText__BulkSendToSuffixPlural</members>
+    <members>LiveText__BulkTextBodyTitle</members>
+    <members>LiveText__BulkTextBodyTooltip</members>
+    <members>LiveText__BusinessHrsLbl</members>
+    <members>LiveText__CampaignBulkConfirmationLbl</members>
+    <members>LiveText__CampaignBulkToLbl</members>
+    <members>LiveText__CampaignBulkToManyRecipientsPrefix</members>
+    <members>LiveText__CampaignBulkToManyRecipientsSuffix</members>
+    <members>LiveText__CampaignResponseTypeOptOut</members>
+    <members>LiveText__CampaignResponseTypeResponded</members>
+    <members>LiveText__CampaignResponseTypeResponding</members>
+    <members>LiveText__CancelBtn</members>
+    <members>LiveText__CannotDeleteSupportNoMsg</members>
+    <members>LiveText__ChannelTypeFacebook</members>
+    <members>LiveText__ChannelTypeText</members>
+    <members>LiveText__ChatEndMsgLbl</members>
+    <members>LiveText__ChatPageAttachImageBtn</members>
+    <members>LiveText__ChatPageImageRequestBtn</members>
+    <members>LiveText__ChatPageImageToLargeLbl</members>
+    <members>LiveText__ChatPageImageToLargePrefix</members>
+    <members>LiveText__ChatPageImageToLargeSuffix</members>
+    <members>LiveText__ChatPageMMSSentLbl</members>
+    <members>LiveText__ChatPageMaxCharsAllowedLbl</members>
+    <members>LiveText__ChatPagePaperclipDefaultLabelPrefix</members>
+    <members>LiveText__ChatPageRecipientNumberLbl</members>
+    <members>LiveText__ChatPageRemoveImageBtn</members>
+    <members>LiveText__ChatPageSendBtn</members>
+    <members>LiveText__ChatPageSubtabForImageOpenLbl</members>
+    <members>LiveText__ConnectBtn</members>
+    <members>LiveText__ConnectedByHelpTxtLbl</members>
+    <members>LiveText__ConnectedByLbl</members>
+    <members>LiveText__ConnectionExceptionMsg</members>
+    <members>LiveText__ConnectionLostMsg</members>
+    <members>LiveText__ConnectionLostTitle</members>
+    <members>LiveText__CountryCodesDescriptionLbl</members>
+    <members>LiveText__CountryCodesHeaderLbl</members>
+    <members>LiveText__CountryCodesLbl</members>
+    <members>LiveText__CreateActivityHeaderLbl</members>
+    <members>LiveText__CreateActivityLbl</members>
+    <members>LiveText__CreateActivityRecordsLbl</members>
+    <members>LiveText__CriticalWaitAlertTimeMsg</members>
+    <members>LiveText__CustomLookupClearSearchLbl</members>
+    <members>LiveText__CustomLookupLookupLbl</members>
+    <members>LiveText__CustomLookupSearchPlaceholderLbl</members>
+    <members>LiveText__CustomLookupTitleLbl</members>
+    <members>LiveText__DeleteActionLbl</members>
+    <members>LiveText__DetailLinkTitle</members>
+    <members>LiveText__DetailPaneNoMatchingRecordsFoundMessage</members>
+    <members>LiveText__DetailPaneRemoteActionError</members>
+    <members>LiveText__DetailUnlinkTitle</members>
+    <members>LiveText__DisconnectSoundEnabledLbl</members>
+    <members>LiveText__DuplicatePhoneNoMsg</members>
+    <members>LiveText__DuplicateTextSessionMsg</members>
+    <members>LiveText__EditActionLbl</members>
+    <members>LiveText__EmailLbl</members>
+    <members>LiveText__EndChatBtnLbl</members>
+    <members>LiveText__EndChatLbl</members>
+    <members>LiveText__EndStatus</members>
+    <members>LiveText__EndedChatSendMsgError</members>
+    <members>LiveText__EndedChatSendMsgPlaceholderLbl</members>
+    <members>LiveText__EndpointUrlInput</members>
+    <members>LiveText__ErrorLabel</members>
+    <members>LiveText__FBConfSettingLbl</members>
+    <members>LiveText__Facebook_Session_Label</members>
+    <members>LiveText__FindBtn</members>
+    <members>LiveText__ForLbl</members>
+    <members>LiveText__GreetingMsgLengthLimitMsg</members>
+    <members>LiveText__HeyWireCredentialsRequiredMsg</members>
+    <members>LiveText__InboundStatus</members>
+    <members>LiveText__InitialMsgLbl</members>
+    <members>LiveText__InsufficientPrivilegesError</members>
+    <members>LiveText__InternationalShortCodeTextingError</members>
+    <members>LiveText__InvalidChannelMsg</members>
+    <members>LiveText__InvalidHeyWireCredentialMsg</members>
+    <members>LiveText__InvalidHeywireCredentialsMsg</members>
+    <members>LiveText__InvalidPhoneNoMsg</members>
+    <members>LiveText__InvalidPhoneNumberMsg</members>
+    <members>LiveText__ItrEnabledLbl</members>
+    <members>LiveText__ItrEnabledWarning</members>
+    <members>LiveText__LTNumberException</members>
+    <members>LiveText__LTNumberLengthMsg</members>
+    <members>LiveText__LTNumberRequiredError</members>
+    <members>LiveText__LastModifiedByLbl</members>
+    <members>LiveText__LastModifiedDateLbl</members>
+    <members>LiveText__LastModifiedLbl</members>
+    <members>LiveText__LinkLbl</members>
+    <members>LiveText__NameLabelLbl</members>
+    <members>LiveText__NameLbl</members>
+    <members>LiveText__NewInboundConversationMsg</members>
+    <members>LiveText__NewInboundConversationTitle</members>
+    <members>LiveText__NewTabsHeaderLbl</members>
+    <members>LiveText__NewTabsLbl</members>
+    <members>LiveText__NoAvailableUsersMsgLbl</members>
+    <members>LiveText__NoLTNumberErrorPrefix</members>
+    <members>LiveText__NoObjectErrorMsg</members>
+    <members>LiveText__NoQueuesAvailableLbl</members>
+    <members>LiveText__NoQueuesSelectedLbl</members>
+    <members>LiveText__NoRecordTypeLbl</members>
+    <members>LiveText__NoneLbl</members>
+    <members>LiveText__NoneWithHyphenLbl</members>
+    <members>LiveText__NumberConfSettingLbl</members>
+    <members>LiveText__OAuthServerEurope</members>
+    <members>LiveText__OAuthServerLabel</members>
+    <members>LiveText__OAuthServerNA</members>
+    <members>LiveText__OAuthServerTooltip</members>
+    <members>LiveText__OAuthTokenInput</members>
+    <members>LiveText__OAuthUrlInput</members>
+    <members>LiveText__OfflineHrsMsgLbl</members>
+    <members>LiveText__OfflineHrsReqMsg</members>
+    <members>LiveText__OmniChannelDefaultQueueLbl</members>
+    <members>LiveText__OptChannelSelectionErrorMsg</members>
+    <members>LiveText__OptConfirmIn</members>
+    <members>LiveText__OptConfirmOut</members>
+    <members>LiveText__OptHeaderIn</members>
+    <members>LiveText__OptHeaderOut</members>
+    <members>LiveText__OptMiddleMessage</members>
+    <members>LiveText__OptOutStatusMsg</members>
+    <members>LiveText__OptPastIn</members>
+    <members>LiveText__OptPastOut</members>
+    <members>LiveText__OptPrefixMessage</members>
+    <members>LiveText__OptPresentIn</members>
+    <members>LiveText__OptPresentOut</members>
+    <members>LiveText__OptSuffixMessage</members>
+    <members>LiveText__OrgTypeDropDown</members>
+    <members>LiveText__Other_Label</members>
+    <members>LiveText__OutBoundTxt_EndMsg</members>
+    <members>LiveText__OutBoundTxt_SentMsg</members>
+    <members>LiveText__OutboundMessageTitle</members>
+    <members>LiveText__OutboundStatus</members>
+    <members>LiveText__PhoneIsInvalidError</members>
+    <members>LiveText__PhoneLabelHelpTextLbl</members>
+    <members>LiveText__PhoneLbl</members>
+    <members>LiveText__PhoneNoLengthMsg</members>
+    <members>LiveText__PhoneNumberLbl</members>
+    <members>LiveText__PopupWindowErrMsg</members>
+    <members>LiveText__PrevTextSessionsLbl1</members>
+    <members>LiveText__PrevTextSessionsLbl2</members>
+    <members>LiveText__PrevTextSessionsWithCustomerLbl</members>
+    <members>LiveText__REST_NotEnoughtInformationInJSONError</members>
+    <members>LiveText__RecipientNumberRequiredLbl</members>
+    <members>LiveText__RecordCaseNumberLbl</members>
+    <members>LiveText__RecordNameLbl</members>
+    <members>LiveText__RecordTypeLbl</members>
+    <members>LiveText__RefreshConnectionBtn</members>
+    <members>LiveText__RemoveLbl</members>
+    <members>LiveText__SMSNotDeliveredLbl</members>
+    <members>LiveText__SaveBtn</members>
+    <members>LiveText__ScreenPopNoRecordsDescriptionLbl</members>
+    <members>LiveText__ScreenPopNoRecordsHeaderLbl</members>
+    <members>LiveText__ScreenPopNoRecordsLbl</members>
+    <members>LiveText__ScreenPopOptionsLbl</members>
+    <members>LiveText__ScreenPopWithRecordsDescriptionLbl</members>
+    <members>LiveText__ScreenPopWithRecordsHeaderLbl</members>
+    <members>LiveText__ScreenPopWithRecordsLbl</members>
+    <members>LiveText__SearchLbl</members>
+    <members>LiveText__SelectChannel</members>
+    <members>LiveText__SelectedMembersLbl</members>
+    <members>LiveText__SelectedRecordTypesLbl</members>
+    <members>LiveText__SendingRequestLbl</members>
+    <members>LiveText__SessionTimeout</members>
+    <members>LiveText__SessionTimeoutTitle</members>
+    <members>LiveText__StartChatLbl</members>
+    <members>LiveText__StatusLbl</members>
+    <members>LiveText__SupportNumberConfLbl</members>
+    <members>LiveText__SupportNumberLbl</members>
+    <members>LiveText__SupportNumberReqValMsg</members>
+    <members>LiveText__TXT_Account</members>
+    <members>LiveText__TXT_AdminEmail</members>
+    <members>LiveText__TXT_AppBrand</members>
+    <members>LiveText__TXT_Case</members>
+    <members>LiveText__TXT_Chat_Endeded</members>
+    <members>LiveText__TXT_Chat_Started</members>
+    <members>LiveText__TXT_Contact</members>
+    <members>LiveText__TXT_Conversation</members>
+    <members>LiveText__TXT_ITR_Started</members>
+    <members>LiveText__TXT_Lead</members>
+    <members>LiveText__TXT_LiveText</members>
+    <members>LiveText__TXT_New_Account</members>
+    <members>LiveText__TXT_New_Case</members>
+    <members>LiveText__TXT_New_Contact</members>
+    <members>LiveText__TXT_New_Lead</members>
+    <members>LiveText__TXT_New_Opportunity</members>
+    <members>LiveText__TXT_OPT_Messaging</members>
+    <members>LiveText__TXT_Opportunity</members>
+    <members>LiveText__TXT_Transcript_auto_linked_prefix</members>
+    <members>LiveText__TXT_Transcript_linked_prefix</members>
+    <members>LiveText__TXT_Transcript_linked_unlinked_postfix</members>
+    <members>LiveText__TXT_Transcript_options</members>
+    <members>LiveText__TXT_Transcript_time_format</members>
+    <members>LiveText__TXT_Transcript_unlinked_prefix</members>
+    <members>LiveText__TXT_Workspace_options</members>
+    <members>LiveText__TXT_Workspace_options_header</members>
+    <members>LiveText__TextSessionAccepted</members>
+    <members>LiveText__TextSessionReuseTimeMsg</members>
+    <members>LiveText__Text_Session_Label</members>
+    <members>LiveText__TitleLbl</members>
+    <members>LiveText__Txt_Time_In_Queue</members>
+    <members>LiveText__UnsupportedFileFormatMMS</members>
+    <members>LiveText__UnvalidatedPhNoMsg</members>
+    <members>LiveText__ValidatedLbl</members>
+    <members>LiveText__WidgetLabel</members>
     <members>copado__ACCOUNT_SUMMARY</members>
     <members>copado__ACTION_COLUMN_HEADER</members>
     <members>copado__ACTIVATE_USERS</members>
@@ -4261,6 +4879,28 @@
     <members>LiveChatTranscriptEvent</members>
     <members>LiveChatTranscriptSkill</members>
     <members>LiveChatVisitor</members>
+    <members>LiveText__Agent_Status__c</members>
+    <members>LiveText__Associated_Agents__c</members>
+    <members>LiveText__Auto_Linking__c</members>
+    <members>LiveText__Campaign_Send_Member__c</members>
+    <members>LiveText__Campaign_Send__c</members>
+    <members>LiveText__Conversation_Event__c</members>
+    <members>LiveText__Conversation_Header__c</members>
+    <members>LiveText__Conversation_Session__c</members>
+    <members>LiveText__Current_Optin_Status__c</members>
+    <members>LiveText__Exception__c</members>
+    <members>LiveText__ITR_Message__c</members>
+    <members>LiveText__Inbound_Connection_Status__c</members>
+    <members>LiveText__LiveTextGlobalSettings__c</members>
+    <members>LiveText__LiveText_Number__c</members>
+    <members>LiveText__OptInStatus__c</members>
+    <members>LiveText__ProfileNames__c</members>
+    <members>LiveText__Recent_Campaign_Send_Member__c</members>
+    <members>LiveText__SMS_Message__c</members>
+    <members>LiveText__SMS_Schedule__c</members>
+    <members>LiveText__SMS_Text__c</members>
+    <members>LiveText__ScreenPopSequence__c</members>
+    <members>LiveText__Storage__c</members>
     <members>Macro</members>
     <members>MacroAction</members>
     <members>MacroInstruction</members>
@@ -4418,6 +5058,28 @@
     <members>Lead-ru</members>
     <members>Lead-zh_CN</members>
     <members>Lead-zh_TW</members>
+    <members>LiveText__Agent_Status__c-en_US</members>
+    <members>LiveText__Associated_Agents__c-en_US</members>
+    <members>LiveText__Auto_Linking__c-en_US</members>
+    <members>LiveText__Campaign_Send_Member__c-en_US</members>
+    <members>LiveText__Campaign_Send__c-en_US</members>
+    <members>LiveText__Conversation_Event__c-en_US</members>
+    <members>LiveText__Conversation_Header__c-en_US</members>
+    <members>LiveText__Conversation_Session__c-en_US</members>
+    <members>LiveText__Current_Optin_Status__c-en_US</members>
+    <members>LiveText__Exception__c-en_US</members>
+    <members>LiveText__ITR_Message__c-en_US</members>
+    <members>LiveText__Inbound_Connection_Status__c-en_US</members>
+    <members>LiveText__LiveTextGlobalSettings__c-en_US</members>
+    <members>LiveText__LiveText_Number__c-en_US</members>
+    <members>LiveText__OptInStatus__c-en_US</members>
+    <members>LiveText__ProfileNames__c-en_US</members>
+    <members>LiveText__Recent_Campaign_Send_Member__c-en_US</members>
+    <members>LiveText__SMS_Message__c-en_US</members>
+    <members>LiveText__SMS_Schedule__c-en_US</members>
+    <members>LiveText__SMS_Text__c-en_US</members>
+    <members>LiveText__ScreenPopSequence__c-en_US</members>
+    <members>LiveText__Storage__c-en_US</members>
     <members>Opportunity-de</members>
     <members>Opportunity-en_US</members>
     <members>Opportunity-es</members>
@@ -4586,6 +5248,11 @@
     <members>Home_Page_Console</members>
     <members>Investment__c</members>
     <members>LDS</members>
+    <members>LiveText__Associated_Agents__c</members>
+    <members>LiveText__Conversation_Header__c</members>
+    <members>LiveText__Exception__c</members>
+    <members>LiveText__LiveText_Admin</members>
+    <members>LiveText__SMS_Text__c</members>
     <members>copado__Account_Summary</members>
     <members>copado__Continuous_Integration__c</members>
     <members>copado__Copado_License_Manager</members>
@@ -4624,6 +5291,8 @@
     <name>CustomTab</name>
   </types>
   <types>
+    <members>LiveText__LiveMessage_Dashboards</members>
+    <members>LiveText__LiveMessage_Dashboards/LiveText__LiveMessage_Dashboard2</members>
     <members>copado__Copado</members>
     <members>copado__Copado/copado__Copado_Administrator_Dashboard</members>
     <members>copado__Copado/copado__Copado_Dashboard</members>
@@ -4634,6 +5303,13 @@
     <name>Dashboard</name>
   </types>
   <types>
+    <members>LiveText__HeyWire</members>
+    <members>LiveText__HeyWire/LiveText__LiveText_Admin_App_Logo.png</members>
+    <members>LiveText__HeyWire/LiveText__LiveText_Admin_App_Upgrade_Logo.png</members>
+    <members>LiveText__HeyWire/LiveText__LiveText_Console_App_Logo.png</members>
+    <members>LiveText__HeyWire/LiveText__LiveText_Console_App_Upgrade_Logo.png</members>
+    <members>LiveText__HeyWire/LiveText__New_Text_Session_Header_LiveText_Logo.png</members>
+    <members>LiveText__HeyWire/LiveText__heywire_logo.jpg</members>
     <members>Salesforce1_Branding_Resources</members>
     <members>Salesforce1_Branding_Resources/download_png.png</members>
     <members>copado__Copado</members>
@@ -4752,8 +5428,12 @@
   </types>
   <types>
     <members>AccountTest-1</members>
+    <members>ConfirmOptIn</members>
     <members>EmailMessageAttachment-1</members>
     <members>LiveAgentTranscriptChatter-1</members>
+    <members>ScheduleMessage</members>
+    <members>ScheduledMessageStatusChange</members>
+    <members>SendMessage</members>
     <members>Synch_Account-1</members>
     <members>TEST-1</members>
     <members>TEST-2</members>
@@ -4764,6 +5444,10 @@
     <members>AccountTest</members>
     <members>EmailMessageAttachment</members>
     <members>LiveAgentTranscriptChatter</members>
+    <members>LiveText__ConfirmOptIn</members>
+    <members>LiveText__ScheduleMessage</members>
+    <members>LiveText__ScheduledMessageStatusChange</members>
+    <members>LiveText__SendMessage</members>
     <members>Synch_Account</members>
     <members>TEST</members>
     <members>TESTtt</members>
@@ -4774,6 +5458,7 @@
     <name>HomePageLayout</name>
   </types>
   <types>
+    <members>LiveText</members>
     <members>copado</members>
     <members>dsfs</members>
     <members>sf_com_apps</members>
@@ -4824,6 +5509,25 @@
     <members>LiveChatTranscriptEvent-Live Chat Transcript Event Layout</members>
     <members>LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout</members>
     <members>LiveChatVisitor-Live Chat Visitor Layout</members>
+    <members>LiveText__Agent_Status__c-LiveText__Agent Status Layout</members>
+    <members>LiveText__Associated_Agents__c-LiveText__Associated Agents Layout</members>
+    <members>LiveText__Auto_Linking__c-LiveText__Auto Linking Layout</members>
+    <members>LiveText__Campaign_Send_Member__c-LiveText__Campaign Send Member Layout</members>
+    <members>LiveText__Campaign_Send__c-LiveText__Campaign Send Layout</members>
+    <members>LiveText__Conversation_Event__c-LiveText__Conversation Event Layout</members>
+    <members>LiveText__Conversation_Header__c-LiveText__Conversation Header Layout</members>
+    <members>LiveText__Conversation_Session__c-LiveText__Conversation Session Layout</members>
+    <members>LiveText__Current_Optin_Status__c-LiveText__Current Optin Status Layout</members>
+    <members>LiveText__Exception__c-LiveText__Exception Layout</members>
+    <members>LiveText__ITR_Message__c-LiveText__ITR Message Layout</members>
+    <members>LiveText__LiveText_Number__c-LiveText__LiveText Number Layout</members>
+    <members>LiveText__OptInStatus__c-LiveText__OptInStatus Layout</members>
+    <members>LiveText__Recent_Campaign_Send_Member__c-LiveText__Recent Campaign Send Member Layout</members>
+    <members>LiveText__SMS_Message__c-LiveText__SMS Message Layout</members>
+    <members>LiveText__SMS_Schedule__c-LiveText__SMS Schedule Layout</members>
+    <members>LiveText__SMS_Text__c-LiveText__SMS Text Layout</members>
+    <members>LiveText__ScreenPopSequence__c-LiveText__ScreenPopSequence Layout</members>
+    <members>LiveText__Storage__c-LiveText__Storage Layout</members>
     <members>Macro-Macro Layout</members>
     <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
     <members>Opportunity-Opportunity %28Sales%29 Layout</members>
@@ -4964,6 +5668,12 @@
     <members>Lead.ViewCustom2</members>
     <members>LiveAgentSession.LA_Queue_LiveAgentSession</members>
     <members>LiveChatTranscript.LA_Queue_LiveChatTranscript</members>
+    <members>LiveText__Associated_Agents__c.LiveText__All</members>
+    <members>LiveText__Conversation_Header__c.LiveText__All_Text_Sessions</members>
+    <members>LiveText__Conversation_Header__c.LiveText__My_Active_Text_Sessions</members>
+    <members>LiveText__Conversation_Header__c.LiveText__My_Ended_Text_Sessions</members>
+    <members>LiveText__Exception__c.LiveText__All</members>
+    <members>LiveText__SMS_Text__c.LiveText__All</members>
     <members>Opportunity.AllOpportunities</members>
     <members>Opportunity.ClosingNextMonth</members>
     <members>Opportunity.ClosingThisMonth</members>
@@ -5090,6 +5800,10 @@
     <members>Git_Repositories_View</members>
     <members>Git_Snapshot_Manage</members>
     <members>Investment_App_Developer</members>
+    <members>LiveText_Admin</members>
+    <members>LiveText_Agent</members>
+    <members>LiveText_Manager</members>
+    <members>LiveText_Send_Text_To_List</members>
     <members>Org_Credentials_Edit</members>
     <members>Org_Credentials_Modify_All</members>
     <members>Org_Credentials_Read_Only</members>
@@ -5192,20 +5906,31 @@
   <types>
     <members>Account.AccountDocuSignAction</members>
     <members>Account.CMON</members>
+    <members>Account.Opt_in_for_Text_Messages</members>
+    <members>Account.Opt_out_for_Text_Messages</members>
     <members>Account.Pleasewait</members>
+    <members>Account.Send_Text_Message</members>
     <members>Account.X123</members>
+    <members>Campaign.Send_Text_to_Campaign_Members</members>
     <members>Case.CaseDocuSignAction</members>
     <members>Case.NewChildCase</members>
     <members>Case.SendEmail</members>
+    <members>Case.Send_Text_Message</members>
     <members>Case.TEST</members>
     <members>CollaborationGroup.NewGroupMember</members>
     <members>CollaborationGroup.NewGroupRecord</members>
     <members>Contact.ContactDocuSignAction</members>
+    <members>Contact.Opt_in_for_Text_Messages</members>
+    <members>Contact.Opt_out_for_Text_Messages</members>
+    <members>Contact.Send_Text_Message</members>
     <members>FeedItem.NewTaskFromFeedItem</members>
     <members>Investment_Record</members>
     <members>Investment__c.Add_Document</members>
     <members>Investment__c.Create_Question</members>
     <members>Lead.LeadDocuSignAction</members>
+    <members>Lead.Opt_in_for_Text_Messages</members>
+    <members>Lead.Opt_out_for_Text_Messages</members>
+    <members>Lead.Send_Text_Message</members>
     <members>LogACall</members>
     <members>NewAccount</members>
     <members>NewCase</members>
@@ -5217,8 +5942,12 @@
     <members>NewOpportunity</members>
     <members>NewTask</members>
     <members>Opportunity.OpportunityDocuSignAction</members>
+    <members>Opportunity.Send_Text_Message_Action</members>
+    <members>Opt_in_for_Text_Messages</members>
+    <members>Opt_out_for_Text_Messages</members>
     <members>Questions</members>
     <members>SendEmail</members>
+    <members>Send_Text_Message</members>
     <members>Task.Defer</members>
     <members>Task.Defer_0</members>
     <members>Task.EditDescription</members>
@@ -5233,6 +5962,7 @@
     <members>Account.Child_Account</members>
     <members>Account.UltimateParent</members>
     <members>Case.Generic</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Ended_Text_Sessions</members>
     <members>Metric.Completion</members>
     <members>Metric.Progress</members>
     <members>copado__Selenium_Test_Run__c.copado__Generic_Web_Application</members>
@@ -5244,6 +5974,8 @@
     <members>DocuSignDlrsMdapi</members>
     <members>DocuSignSFDCSoapApi</members>
     <members>LOUTRS</members>
+    <members>LiveText__LivTextEUProd</members>
+    <members>LiveText__LiveTextProd</members>
     <members>copado__Copado</members>
     <members>dsfs__DocuSignDemo</members>
     <members>dsfs__DocuSignEU</members>
@@ -5258,6 +5990,16 @@
     <name>RemoteSiteSetting</name>
   </types>
   <types>
+    <members>LiveText__LiveMessage_Reports2</members>
+    <members>LiveText__LiveMessage_Reports2/LiveText__Active_LiveMessage_Sessions2</members>
+    <members>LiveText__LiveMessage_Reports2/LiveText__Average_Handle_Time_Day2</members>
+    <members>LiveText__LiveMessage_Reports2/LiveText__Average_Handle_Time_Day_by_Agent2</members>
+    <members>LiveText__LiveMessage_Reports2/LiveText__LiveMessage_Sessions_Day_by_Agent2</members>
+    <members>LiveText__LiveMessage_Reports2/LiveText__LiveMessage_Sessions_Day_by_Channel2</members>
+    <members>LiveText__LiveMessage_Reports2/LiveText__LiveMessage_Sessions_by_Hour_EST2</members>
+    <members>LiveText__LiveMessage_Reports2/LiveText__New_LiveMessage_Sessions2</members>
+    <members>LiveText__LiveMessage_Reports2/LiveText__Total_Handle_Time_Day5</members>
+    <members>LiveText__LiveMessage_Reports2/LiveText__Total_Handle_Time_Day_by_Agent2</members>
     <members>copado__Copado</members>
     <members>copado__Copado/copado__All_Orgs_with_Backups</members>
     <members>copado__Copado/copado__All_Orgs_with_Backups_With_errors</members>
@@ -5386,6 +6128,27 @@
     <members>HomePageIDs__c</members>
     <members>Investment__c</members>
     <members>Lead</members>
+    <members>LiveText__Agent_Status__c</members>
+    <members>LiveText__Auto_Linking__c</members>
+    <members>LiveText__Campaign_Send_Member__c</members>
+    <members>LiveText__Campaign_Send__c</members>
+    <members>LiveText__Conversation_Event__c</members>
+    <members>LiveText__Conversation_Header__c</members>
+    <members>LiveText__Conversation_Session__c</members>
+    <members>LiveText__Current_Optin_Status__c</members>
+    <members>LiveText__Exception__c</members>
+    <members>LiveText__ITR_Message__c</members>
+    <members>LiveText__Inbound_Connection_Status__c</members>
+    <members>LiveText__LiveTextGlobalSettings__c</members>
+    <members>LiveText__LiveText_Number__c</members>
+    <members>LiveText__OptInStatus__c</members>
+    <members>LiveText__ProfileNames__c</members>
+    <members>LiveText__Recent_Campaign_Send_Member__c</members>
+    <members>LiveText__SMS_Message__c</members>
+    <members>LiveText__SMS_Schedule__c</members>
+    <members>LiveText__SMS_Text__c</members>
+    <members>LiveText__ScreenPopSequence__c</members>
+    <members>LiveText__Storage__c</members>
     <members>Opportunity</members>
     <members>Order</members>
     <members>Q_A__c</members>
@@ -5483,6 +6246,11 @@
   </types>
   <types>
     <members>LDS</members>
+    <members>LiveText__Framework</members>
+    <members>LiveText__LiveText</members>
+    <members>LiveText__SLDS202</members>
+    <members>LiveText__Toast</members>
+    <members>LiveText__jquery_cometd</members>
     <members>SiteSamples</members>
     <members>Typeahead</members>
     <members>aljs</members>
@@ -5560,6 +6328,9 @@
     <name>StaticResource</name>
   </types>
   <types>
+    <members>LiveText__LiveText_Number__c.LiveText__Chat_End_Message_Length_Rule</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Initial_Message_Length_Rule</members>
+    <members>LiveText__LiveText_Number__c.LiveText__Offline_Hours_Message_Length_Rule</members>
     <members>copado__OrgDiff__c.copado__Should_be_differents</members>
     <members>copado__Selenium_Test_Run__c.copado__Credentials_or_BaseURL</members>
     <members>copado__User_Persona_Assignment__c.copado__Permanent_no_Dates</members>
@@ -5570,15 +6341,28 @@
   </types>
   <types>
     <members>Account.Billing</members>
+    <members>Account.LiveText__Opt_in_for_Text_Messages_list</members>
+    <members>Account.LiveText__Opt_out_for_Text_Messages_list</members>
+    <members>Account.LiveText__Send_Bulk_SMS</members>
     <members>Account.dsfs__Send_with_DocuSign</members>
     <members>Account.dsfs__Verify_with_DNB</members>
+    <members>Campaign.LiveText__Send_Text_To_Campaign_Members</members>
     <members>Campaign.ViewCampaignInfluenceReport</members>
+    <members>Case.LiveText__Send_Bulk_SMS</members>
     <members>Case.UpsellCrosssellOpportunity</members>
     <members>Case.dsfs__Send_with_DocuSign</members>
+    <members>Contact.LiveText__Opt_in_for_Text_Messages_list</members>
+    <members>Contact.LiveText__Opt_out_for_Text_Messaging_List</members>
+    <members>Contact.LiveText__Send_Bulk_SMS2</members>
     <members>Contact.dsfs__Send_with_DocuSign</members>
     <members>Contract.dsfs__Send_with_DocuSign</members>
+    <members>Lead.LiveText__Opt_in_for_Text_Messages_list</members>
+    <members>Lead.LiveText__Opt_out_for_Text_Messages_list</members>
+    <members>Lead.LiveText__Send_Bulk_SMS</members>
     <members>Lead.dsfs__Send_with_DocuSign</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Resume_Text_Session</members>
     <members>Opportunity.DeliveryStatus</members>
+    <members>Opportunity.LiveText__Send_Bulk_SMS</members>
     <members>Opportunity.TEST</members>
     <members>Opportunity.dsfs__Send_with_DocuSign</members>
     <members>Opportunity.dsfs__Verify_with_DNB</members>
@@ -5654,6 +6438,28 @@
     <members>LiveChatTranscript</members>
     <members>LiveChatTranscriptEvent</members>
     <members>LiveChatTranscriptSkill</members>
+    <members>LiveText__Agent_Status__c</members>
+    <members>LiveText__Associated_Agents__c</members>
+    <members>LiveText__Auto_Linking__c</members>
+    <members>LiveText__Campaign_Send_Member__c</members>
+    <members>LiveText__Campaign_Send__c</members>
+    <members>LiveText__Conversation_Event__c</members>
+    <members>LiveText__Conversation_Header__c</members>
+    <members>LiveText__Conversation_Session__c</members>
+    <members>LiveText__Current_Optin_Status__c</members>
+    <members>LiveText__Exception__c</members>
+    <members>LiveText__ITR_Message__c</members>
+    <members>LiveText__Inbound_Connection_Status__c</members>
+    <members>LiveText__LiveTextGlobalSettings__c</members>
+    <members>LiveText__LiveText_Number__c</members>
+    <members>LiveText__OptInStatus__c</members>
+    <members>LiveText__ProfileNames__c</members>
+    <members>LiveText__Recent_Campaign_Send_Member__c</members>
+    <members>LiveText__SMS_Message__c</members>
+    <members>LiveText__SMS_Schedule__c</members>
+    <members>LiveText__SMS_Text__c</members>
+    <members>LiveText__ScreenPopSequence__c</members>
+    <members>LiveText__Storage__c</members>
     <members>Macro</members>
     <members>MacroAction</members>
     <members>MacroInstruction</members>
@@ -5751,6 +6557,8 @@
   <types>
     <members>Case.owner</members>
     <members>LiveChatTranscript.chat_assign</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Update_Transcript1</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Update_Transcript2</members>
     <members>copado__Deployment_Job__c.copado__Set_DJ_Status_to_Failed</members>
     <members>copado__Deployment_Job__c.copado__Set_DJ_Status_to_Success</members>
     <members>copado__Deployment__c.copado__Send_deployment_command</members>
@@ -5763,6 +6571,7 @@
     <members>Case.create case</members>
     <members>EmailMadness__c.EmailMadness</members>
     <members>LiveChatTranscript.chat assignment</members>
+    <members>LiveText__Conversation_Header__c.LiveText__Update Transcripts</members>
     <members>copado__Deployment_Job__c.copado__Mark Early Job Completion as Failed</members>
     <members>copado__Deployment_Job__c.copado__Mark Early Job Completion as Success</members>
     <members>copado__Deployment__c.copado__Deployment Completed</members>
