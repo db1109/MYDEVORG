@@ -152,6 +152,7 @@
     <members>SubmitCaseController</members>
     <members>Typeahead</members>
     <members>TypeaheadTest</members>
+    <members>XSSTest</members>
     <members>copado__ApexTestResultTriggerHandler</members>
     <members>copado__ApexTestResultTriggerHelper</members>
     <members>copado__ApexTestTriggerHandler</members>
@@ -685,6 +686,7 @@
     <members>TypeaheadTest</members>
     <members>Unauthorized</members>
     <members>UnderConstruction</members>
+    <members>XSSTestVulnerable</members>
     <members>autologin</members>
     <members>callbackurl</members>
     <members>caseSite</members>
