@@ -2048,12 +2048,6 @@
     <name>RemoteSiteSetting</name>
   </types>
   <types>
-    <members>unfiled$public</members>
-    <members>unfiled$public/Investment_Amount_over_Time</members>
-    <members>unfiled$public/Investments</members>
-    <name>Report</name>
-  </types>
-  <types>
     <members>Accounts_with_Entitlements_with_Contacts</members>
     <members>Service_Contracts_with_Contract_Line_Items</members>
     <members>Service_Contracts_with_Entitlements</members>
