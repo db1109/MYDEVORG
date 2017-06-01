@@ -5244,7 +5244,9 @@
   <types>
     <members>Boehringer</members>
     <members>Boehringer_Example</members>
+    <members>D</members>
     <members>EEEEFFFFGGGGG</members>
+    <members>Q</members>
     <members>SERVICE_COMMUNITY</members>
     <members>TEST1</members>
     <members>community</members>
@@ -5758,6 +5760,8 @@
   <types>
     <members>Boehringer</members>
     <members>Boehringer Example</members>
+    <members>D</members>
+    <members>Q</members>
     <members>SERVICE COMMUNITY</members>
     <members>TEST1</members>
     <members>community</members>
@@ -5786,6 +5790,8 @@
   <types>
     <members>Boehringer</members>
     <members>Boehringer Example</members>
+    <members>D</members>
+    <members>Q</members>
     <members>SERVICE COMMUNITY</members>
     <members>TEST1</members>
     <members>community</members>
@@ -5889,6 +5895,7 @@
     <members>Customer Community User</members>
     <members>Customer Portal Manager Custom</members>
     <members>Customer Portal Manager Standard</members>
+    <members>D Profile</members>
     <members>EEEEFFFFGGGGG Profile</members>
     <members>External Identity User</members>
     <members>Force%2Ecom - App Subscription User</members>
@@ -5903,6 +5910,7 @@
     <members>Partner Community Login User</members>
     <members>Partner Community User</members>
     <members>PlatformPortal</members>
+    <members>Q Profile</members>
     <members>ReadOnly</members>
     <members>SERVICE COMMUNITY Profile</members>
     <members>Silver Partner User</members>
@@ -6215,6 +6223,8 @@
   <types>
     <members>Boehringer1</members>
     <members>Boehringer_Example1</members>
+    <members>D1</members>
+    <members>Q1</members>
     <members>SERVICE_COMMUNITY1</members>
     <members>TEST11</members>
     <members>community1</members>
@@ -6266,6 +6276,7 @@
     <name>StandardValueSet</name>
   </types>
   <types>
+    <members>BI</members>
     <members>LDS</members>
     <members>LiveText__Framework</members>
     <members>LiveText__LiveText</members>
