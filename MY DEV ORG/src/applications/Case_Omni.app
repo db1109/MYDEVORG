@@ -207,12 +207,16 @@
     <tab>standard-OmniSupervisor</tab>
     <tab>EmailMadness__c</tab>
     <tab>standard-report</tab>
+    <tab>Order__c</tab>
     <workspaceMappings>
         <mapping>
             <tab>EmailMadness__c</tab>
         </mapping>
         <mapping>
             <tab>Home_Page_Console</tab>
+        </mapping>
+        <mapping>
+            <tab>Order__c</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>

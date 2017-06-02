@@ -705,6 +705,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>abc</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__ApexTestResultTriggerHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7923,6 +7927,10 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>COMMUNITYVF</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>CallBackUrlPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
@@ -8716,6 +8724,10 @@
     </tabSettings>
     <tabSettings>
         <tab>LiveText__SMS_Text__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Order__c</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>

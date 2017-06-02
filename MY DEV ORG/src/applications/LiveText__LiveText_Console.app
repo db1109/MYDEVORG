@@ -186,9 +186,13 @@
     <tab>standard-Case</tab>
     <tab>standard-Lead</tab>
     <tab>LiveText__Conversation_Header__c</tab>
+    <tab>Order__c</tab>
     <workspaceMappings>
         <mapping>
             <tab>LiveText__Conversation_Header__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Order__c</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>

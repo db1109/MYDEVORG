@@ -31,6 +31,20 @@
             <target>ShowMoreTopics</target>
             <type>NavigationalTopic</type>
         </navigationMenuItem>
+        <navigationMenuItem>
+            <label>Orders</label>
+            <position>2</position>
+            <publiclyAvailable>false</publiclyAvailable>
+            <target>Order__c</target>
+            <type>SalesforceObject</type>
+        </navigationMenuItem>
+        <navigationMenuItem>
+            <label>Accounts</label>
+            <position>3</position>
+            <publiclyAvailable>false</publiclyAvailable>
+            <target>Account</target>
+            <type>SalesforceObject</type>
+        </navigationMenuItem>
     </navigationLinkSet>
     <networkMemberGroups>
         <profile>admin</profile>

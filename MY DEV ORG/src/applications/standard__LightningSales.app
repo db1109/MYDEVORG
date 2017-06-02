@@ -25,5 +25,6 @@
     <tab>standard-ForecastingLightning</tab>
     <tab>EmailMadness__c</tab>
     <tab>Home_Page_Console</tab>
+    <tab>Order__c</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>

@@ -11,4 +11,5 @@
     <tab>copado__Environment__c</tab>
     <tab>copado__Account_Summary</tab>
     <tab>copado__Scheduled_Job__c</tab>
+    <tab>Order__c</tab>
 </CustomApplication>

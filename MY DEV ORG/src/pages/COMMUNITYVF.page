@@ -1,0 +1,14 @@
+<apex:page docType="html-5.0" showHeader="false" controller="abc" action="{!getrouter}">
+<!--
+<apex:slds/>
+<apex:form >
+
+<div class="slds-grid slds-grid--align-end ">
+<div class="slds-button-group" role="group">
+    <a href="https://mypriyankatrial-developer-edition.eu11.force.com/QQQ/s/profile/{!$user.id}">
+
+<button class="slds-button slds-button--neutral">Submit</button></a>
+    </div>
+</div>
+</apex:form> -->
+</apex:page>

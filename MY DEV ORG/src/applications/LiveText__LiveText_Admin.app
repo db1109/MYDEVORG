@@ -7,4 +7,5 @@
     <tab>LiveText__LiveText_Admin</tab>
     <tab>standard-Document</tab>
     <tab>LiveText__Exception__c</tab>
+    <tab>Order__c</tab>
 </CustomApplication>

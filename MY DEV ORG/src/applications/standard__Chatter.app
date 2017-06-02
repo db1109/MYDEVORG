@@ -9,4 +9,5 @@
     <tab>standard-File</tab>
     <tab>EmailMadness__c</tab>
     <tab>Home_Page_Console</tab>
+    <tab>Order__c</tab>
 </CustomApplication>

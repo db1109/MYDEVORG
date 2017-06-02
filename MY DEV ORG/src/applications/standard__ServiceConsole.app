@@ -182,12 +182,16 @@
     <tab>standard-Knowledge</tab>
     <tab>EmailMadness__c</tab>
     <tab>Home_Page_Console</tab>
+    <tab>Order__c</tab>
     <workspaceMappings>
         <mapping>
             <tab>EmailMadness__c</tab>
         </mapping>
         <mapping>
             <tab>Home_Page_Console</tab>
+        </mapping>
+        <mapping>
+            <tab>Order__c</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>

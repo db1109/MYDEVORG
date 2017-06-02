@@ -17,4 +17,5 @@
     <tab>copado__Continuous_Integration__c</tab>
     <tab>copado__Copado_License_Manager</tab>
     <tab>copado__Scheduled_Job__c</tab>
+    <tab>Order__c</tab>
 </CustomApplication>
