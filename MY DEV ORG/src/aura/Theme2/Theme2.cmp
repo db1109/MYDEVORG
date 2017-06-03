@@ -1,27 +1,13 @@
 <aura:component implements="forceCommunity:themeLayout" access="global" description="Sample Custom Theme Layout">
-
-    <aura:attribute name="navBar" type="Aura.Component[]" required="false"/>
-
-    <div style ="margin-left: 1em;margin-top:1em;margin-bottom: 0.5em;">
-    <img src="{!$Resource.BI}"></img>
-
-    </div>
-<div class="profileMenuRegion">
-
-            {!v.profileMenu}
-
-        </div>
-
-     <div class="navigation">
-{!v.navBar}
-
-
-    </div>
-         <div class="mainContentArea">
-
-            {!v.body}
-
-        </div>
-
-
+<aura:attribute name="navBar" type="Aura.Component[]" required="false"/>
+<aura:attribute name="profileMenu" type="Aura.Component[]" required="false"/>
+ <div style="margin-right: 200px;">
+ <div style=" float: left;width: 100%;background-color: #FFF;">
+        <div style ="margin-left: 1em;margin-top:1em;margin-bottom: 0.5em;">
+    	<img src="{!$Resource.BI}"></img></div></div>
+ <div style="float: right;width: 200px;margin-right: -200px;background-color: #FFF;">
+        <div class="profileMenuRegion">{!v.profileMenu}</div></div>
+<div style="clear: both;"></div></div>
+<div class="navigation">{!v.navBar}</div>
+<div class="mainContentArea">{!v.body}</div>
 </aura:component>

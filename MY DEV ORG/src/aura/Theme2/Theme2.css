@@ -1,2 +1,21 @@
-.THIS {
+.THIS.wrapper  
+{
+    
+  margin-right: 200px;
+}
+
+.THIS.content {
+  float: left;
+  width: 100%;
+  background-color: #CCF;
+}
+.THIS.sidebar {
+  float: right;
+  width: 200px;
+  margin-right: -200px;
+  background-color: #FFA;
+}
+
+.THIS.cleared {
+  clear: both;
 }

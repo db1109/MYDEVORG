@@ -2600,6 +2600,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Asset.AssetLevel</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Asset.AssetProvidedById</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Asset.AssetServicedById</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Asset.ContactId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2616,6 +2631,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Asset.IsCompetitorProduct</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Asset.IsInternal</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2671,6 +2691,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Asset.UsageEndDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssetRelationship.RelationshipType</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
