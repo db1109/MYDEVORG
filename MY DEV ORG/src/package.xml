@@ -5358,6 +5358,11 @@
     <name>Document</name>
   </types>
   <types>
+    <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
+    <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
+    <name>DuplicateRule</name>
+  </types>
+  <types>
     <members>copado__Copado_Deployer</members>
     <members>copado__Copado_Deployer/copado__Apex_Test_Result_Summary</members>
     <members>copado__Copado_Deployer/copado__Build_Task_Status_Notification</members>
