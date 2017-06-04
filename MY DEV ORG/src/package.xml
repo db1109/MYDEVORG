@@ -1276,6 +1276,7 @@
     <members>OrderItem.Quantity</members>
     <members>OrderItem.ServiceDate</members>
     <members>OrderItem.SystemModstamp</members>
+    <members>OrderItem.TotalPrice</members>
     <members>OrderItem.UnitPrice</members>
     <members>Partner.AccountFromId</members>
     <members>Partner.AccountToId</members>
@@ -1697,6 +1698,7 @@
     <members>AccountContactRole</members>
     <members>Activity</members>
     <members>Asset</members>
+    <members>AssetRelationship</members>
     <members>AssistantProgress</members>
     <members>Campaign</members>
     <members>CampaignMember</members>
@@ -1773,6 +1775,11 @@
   <types>
     <members>Investment__c</members>
     <name>CustomTab</name>
+  </types>
+  <types>
+    <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
+    <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
+    <name>DuplicateRule</name>
   </types>
   <types>
     <members>unfiled$public/MarketingProductInquiryResponse</members>
@@ -2191,6 +2198,7 @@
   <types>
     <members>Account</members>
     <members>Asset</members>
+    <members>AssetRelationship</members>
     <members>AssistantProgress</members>
     <members>Campaign</members>
     <members>CampaignMember</members>
