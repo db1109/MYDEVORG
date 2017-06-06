@@ -3333,7 +3333,6 @@
     <name>CustomObjectTranslation</name>
   </types>
   <types>
-    <members>Investment__c</members>
     <members>copado__Account_Summary</members>
     <members>copado__Continuous_Integration__c</members>
     <members>copado__Copado_License_Manager</members>
@@ -3363,6 +3362,54 @@
     <members>copado__Test_Run__c</members>
     <members>copado__Test_Script__c</members>
     <members>copado__User_Story__c</members>
+    <members>standard-Account</members>
+    <members>standard-AppLauncher</members>
+    <members>standard-Asset</members>
+    <members>standard-Campaign</members>
+    <members>standard-Case</members>
+    <members>standard-Chatter</members>
+    <members>standard-CollaborationGroup</members>
+    <members>standard-Console</members>
+    <members>standard-Contact</members>
+    <members>standard-ContentContribute</members>
+    <members>standard-ContentSearch</members>
+    <members>standard-ContentSubscriptions</members>
+    <members>standard-Contract</members>
+    <members>standard-DandBCompany</members>
+    <members>standard-Dashboard</members>
+    <members>standard-Document</members>
+    <members>standard-DuplicateRecordSet</members>
+    <members>standard-Entitlement</members>
+    <members>standard-File</members>
+    <members>standard-Forecasting3</members>
+    <members>standard-Idea</members>
+    <members>standard-JigsawSearch</members>
+    <members>standard-Lead</members>
+    <members>standard-LiveAgentSession</members>
+    <members>standard-LiveChatTranscript</members>
+    <members>standard-LiveChatVisitor</members>
+    <members>standard-Macro</members>
+    <members>standard-Opportunity</members>
+    <members>standard-Order</members>
+    <members>standard-OtherUserProfile</members>
+    <members>standard-Pricebook2</members>
+    <members>standard-Product2</members>
+    <members>standard-ProfilePlatformFeed</members>
+    <members>standard-ProfilePlatformOverview</members>
+    <members>standard-ProfileSkill</members>
+    <members>standard-QuickText</members>
+    <members>standard-Recognition</members>
+    <members>standard-ServiceContract</members>
+    <members>standard-Sites</members>
+    <members>standard-Solution</members>
+    <members>standard-StreamingChannel</members>
+    <members>standard-UserProfile</members>
+    <members>standard-UserProvisioningRequest</members>
+    <members>standard-WorkBadge</members>
+    <members>standard-WorkBadgeDefinition</members>
+    <members>standard-Workspace</members>
+    <members>standard-home</members>
+    <members>standard-report</members>
     <name>CustomTab</name>
   </types>
   <types>
