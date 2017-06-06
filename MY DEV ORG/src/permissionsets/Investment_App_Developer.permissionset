@@ -8910,6 +8910,10 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>standard-AppLauncher</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>standard-Asset</tab>
         <visibility>None</visibility>
     </tabSettings>
@@ -8922,7 +8926,23 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>standard-Chatter</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-CollaborationGroup</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>standard-Contact</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-ContentSearch</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-ContentSubscriptions</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
@@ -8934,6 +8954,14 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>standard-Dashboard</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-Document</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>standard-DuplicateRecordSet</tab>
         <visibility>None</visibility>
     </tabSettings>
@@ -8942,7 +8970,19 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>standard-File</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-Forecasting3</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>standard-Idea</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-JigsawSearch</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
@@ -8951,6 +8991,10 @@
     </tabSettings>
     <tabSettings>
         <tab>standard-LiveAgentSession</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-LiveAgentSupervisor</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
@@ -8974,11 +9018,23 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>standard-OtherUserProfile</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>standard-Pricebook2</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
         <tab>standard-Product2</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-ProfilePlatformFeed</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-ProfilePlatformOverview</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
@@ -8990,6 +9046,10 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>standard-Sites</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>standard-Solution</tab>
         <visibility>None</visibility>
     </tabSettings>
@@ -8998,7 +9058,23 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>standard-UserProfile</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>standard-UserProvisioningRequest</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-Workspace</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-home</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-report</tab>
         <visibility>None</visibility>
     </tabSettings>
 </PermissionSet>
