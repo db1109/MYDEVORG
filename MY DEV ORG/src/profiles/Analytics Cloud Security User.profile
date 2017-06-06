@@ -2668,11 +2668,11 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Investment__c</tab>
-        <visibility>Hidden</visibility>
+        <tab>standard-Account</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Account</tab>
+        <tab>standard-AppLauncher</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -2688,8 +2688,28 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Chatter</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-CollaborationGroup</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Console</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Contact</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContentSearch</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContentSubscriptions</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Contract</tab>
@@ -2700,6 +2720,14 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Dashboard</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Document</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-DuplicateRecordSet</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -2708,8 +2736,20 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-File</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Forecasting3</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Idea</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-JigsawSearch</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Lead</tab>
@@ -2740,12 +2780,24 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-OtherUserProfile</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Pricebook2</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Product2</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ProfilePlatformFeed</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ProfilePlatformOverview</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-QuickText</tab>
@@ -2756,6 +2808,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Sites</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Solution</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -2764,8 +2820,24 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-UserProfile</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Workspace</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-home</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Analytics Cloud Integration User</userLicense>
     <userPermissions>
