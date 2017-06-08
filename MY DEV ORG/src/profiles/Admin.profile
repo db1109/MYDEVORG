@@ -197,6 +197,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>JQTableController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>LDSController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -9500,6 +9504,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>InMaintenance</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>JQTable</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>

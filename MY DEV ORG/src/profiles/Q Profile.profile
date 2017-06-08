@@ -197,6 +197,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>JQTableController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>LDSController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8556,6 +8560,10 @@
     <pageAccesses>
         <apexPage>InMaintenance</apexPage>
         <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>JQTable</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>LAPRECHAT</apexPage>

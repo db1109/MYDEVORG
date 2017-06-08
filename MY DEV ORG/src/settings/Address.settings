@@ -3978,7 +3978,7 @@
             <integrationValue>Sweden</integrationValue>
             <isoCode>SE</isoCode>
             <label>Sweden</label>
-            <orgDefault>false</orgDefault>
+            <orgDefault>true</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
         </countries>

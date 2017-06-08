@@ -1,0 +1,47 @@
+<apex:page standardcontroller="Account" extensions="JQTableController" docType="html-5.0" showHeader="false">
+    <apex:slds />
+    <apex:form >
+    <div class="slds-scope">
+        <div styleClass="slds-col" style="overflow:auto;height:300px;width:50%">
+            <apex:PageBlock >
+            <apex:PageBlockTable value="{!con}" var="c" style="column-width:initial;table-layout:auto; font-size:12px;font-weight:normal;font-style:initial;" styleClass="dataTable mainTables">
+                <apex:column headerClass="slds-text-title--caps">
+                    <apex:facet name="header">Email</apex:facet><apex:outputLink target="_parent" value="/{!c.id}">{!c.Email}</apex:outputLink>
+                </apex:column>
+                 <apex:column headerClass="slds-text-title--caps">
+                     <apex:facet name="header">FirstName </apex:facet><apex:outputLink target="_parent" value="/{!c.id}">{!c.firstname}</apex:outputLink>
+                </apex:column>
+                 <apex:column headerClass="slds-text-title--caps">
+                     <apex:facet name="header">lastname </apex:facet><apex:outputLink target="_parent" value="/{!c.id}">{!c.lastname}</apex:outputLink>
+                </apex:column>
+ </apex:PageBlockTable>
+         </apex:PageBlock>
+        </div>
+    </div>
+    </apex:form>
+    <apex:stylesheet value="{!URLFOR($Resource.jQueryDataTables, 'css/jquery.dataTables.css')}"/>
+    <script type="text/javascript" src="{!URLFOR($Resource.jQueryDataTables, 'js/jquery.js')}"></script>
+    <script type="text/javascript" src="{!URLFOR($Resource.jQueryDataTables, 'js/jquery.dataTables.js')}"></script>
+    <script type="text/javascript">
+        var j$ = jQuery.noConflict(); 
+
+        function fordatatables(){
+            var j$ = jQuery.noConflict(); 
+            j$('table.dataTable').dataTable({
+                "sPaginationType" : "full_numbers",
+                "bFilter": true, // Make Filer True/False
+                "bSort":true, // Make sorting True/False
+                "bPaginate": true, // Make pagination true/false
+                "bLengthChange" : false, // hide length change dropdown
+                "bInfo": true,
+                "destroy": true,
+                "iDisplayLength": 5,
+                "bAutoWidth": true,
+                "bStateSave": true
+            });
+        }
+        j$( document ).ready(function(){
+            fordatatables();
+         });
+    </script>
+</apex:page>

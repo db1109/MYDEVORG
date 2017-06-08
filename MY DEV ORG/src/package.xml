@@ -20,6 +20,7 @@
     <members>ForgotPasswordController</members>
     <members>ForgotPasswordControllerTest</members>
     <members>InventoryDocHandler</members>
+    <members>JQTableController</members>
     <members>LDSController</members>
     <members>LightningForgotPasswordController</members>
     <members>LightningForgotPasswordControllerTest</members>
@@ -648,6 +649,7 @@
     <members>HomePageConsole</members>
     <members>IdeasHome</members>
     <members>InMaintenance</members>
+    <members>JQTable</members>
     <members>LAPRECHAT</members>
     <members>LIVEAGENT</members>
     <members>LightningVFLookup</members>
@@ -1028,7 +1030,9 @@
     <members>Account.Active__c</members>
     <members>Account.AnnualRevenue</members>
     <members>Account.BillingAddress</members>
+    <members>Account.BillingCountryCode</members>
     <members>Account.BillingGeocodeAccuracy</members>
+    <members>Account.BillingStateCode</members>
     <members>Account.CleanStatus</members>
     <members>Account.CreatedById</members>
     <members>Account.CreatedDate</members>
@@ -1068,7 +1072,9 @@
     <members>Account.SLASerialNumber__c</members>
     <members>Account.SLA__c</members>
     <members>Account.ShippingAddress</members>
+    <members>Account.ShippingCountryCode</members>
     <members>Account.ShippingGeocodeAccuracy</members>
+    <members>Account.ShippingStateCode</members>
     <members>Account.Sic</members>
     <members>Account.SicDesc</members>
     <members>Account.Site</members>
@@ -1361,13 +1367,17 @@
     <members>Contact.LeadSource</members>
     <members>Contact.Level__c</members>
     <members>Contact.MailingAddress</members>
+    <members>Contact.MailingCountryCode</members>
     <members>Contact.MailingGeocodeAccuracy</members>
+    <members>Contact.MailingStateCode</members>
     <members>Contact.MasterRecordId</members>
     <members>Contact.MobilePhone</members>
     <members>Contact.Name</members>
     <members>Contact.OtherAddress</members>
+    <members>Contact.OtherCountryCode</members>
     <members>Contact.OtherGeocodeAccuracy</members>
     <members>Contact.OtherPhone</members>
+    <members>Contact.OtherStateCode</members>
     <members>Contact.OwnerId</members>
     <members>Contact.Phone</members>
     <members>Contact.PhotoUrl</members>
@@ -1477,7 +1487,9 @@
     <members>Contract.ActivatedById</members>
     <members>Contract.ActivatedDate</members>
     <members>Contract.BillingAddress</members>
+    <members>Contract.BillingCountryCode</members>
     <members>Contract.BillingGeocodeAccuracy</members>
+    <members>Contract.BillingStateCode</members>
     <members>Contract.CompanySignedDate</members>
     <members>Contract.CompanySignedId</members>
     <members>Contract.ContractNumber</members>
@@ -1533,6 +1545,7 @@
     <members>DandBCompany.Address</members>
     <members>DandBCompany.CompanyCurrencyIsoCode</members>
     <members>DandBCompany.CountryAccessCode</members>
+    <members>DandBCompany.CountryCode</members>
     <members>DandBCompany.CreatedById</members>
     <members>DandBCompany.CreatedDate</members>
     <members>DandBCompany.CurrencyCode</members>
@@ -1576,7 +1589,9 @@
     <members>DandBCompany.LegalStatus</members>
     <members>DandBCompany.LocationStatus</members>
     <members>DandBCompany.MailingAddress</members>
+    <members>DandBCompany.MailingCountryCode</members>
     <members>DandBCompany.MailingGeocodeAccuracy</members>
+    <members>DandBCompany.MailingStateCode</members>
     <members>DandBCompany.MarketingPreScreen</members>
     <members>DandBCompany.MarketingSegmentationCluster</members>
     <members>DandBCompany.MinorityOwned</members>
@@ -1616,6 +1631,7 @@
     <members>DandBCompany.SixthSic8Desc</members>
     <members>DandBCompany.SixthSicDesc</members>
     <members>DandBCompany.SmallBusiness</members>
+    <members>DandBCompany.StateCode</members>
     <members>DandBCompany.StockExchange</members>
     <members>DandBCompany.StockSymbol</members>
     <members>DandBCompany.Subsidiary</members>
@@ -1864,6 +1880,7 @@
     <members>Lead.ConvertedContactId</members>
     <members>Lead.ConvertedDate</members>
     <members>Lead.ConvertedOpportunityId</members>
+    <members>Lead.CountryCode</members>
     <members>Lead.CreatedById</members>
     <members>Lead.CreatedDate</members>
     <members>Lead.CurrentGenerators__c</members>
@@ -1900,6 +1917,7 @@
     <members>Lead.Rating</members>
     <members>Lead.SICCode__c</members>
     <members>Lead.Salutation</members>
+    <members>Lead.StateCode</members>
     <members>Lead.Status</members>
     <members>Lead.SystemModstamp</members>
     <members>Lead.Title</members>
@@ -2308,7 +2326,9 @@
     <members>Order.ActivatedDate</members>
     <members>Order.BillToContactId</members>
     <members>Order.BillingAddress</members>
+    <members>Order.BillingCountryCode</members>
     <members>Order.BillingGeocodeAccuracy</members>
+    <members>Order.BillingStateCode</members>
     <members>Order.CompanyAuthorizedById</members>
     <members>Order.CompanyAuthorizedDate</members>
     <members>Order.ContractId</members>
@@ -2336,7 +2356,9 @@
     <members>Order.Pricebook2Id</members>
     <members>Order.ShipToContactId</members>
     <members>Order.ShippingAddress</members>
+    <members>Order.ShippingCountryCode</members>
     <members>Order.ShippingGeocodeAccuracy</members>
+    <members>Order.ShippingStateCode</members>
     <members>Order.Status</members>
     <members>Order.StatusCode</members>
     <members>Order.SystemModstamp</members>
@@ -2429,7 +2451,9 @@
     <members>ServiceContract.ActivationDate</members>
     <members>ServiceContract.ApprovalStatus</members>
     <members>ServiceContract.BillingAddress</members>
+    <members>ServiceContract.BillingCountryCode</members>
     <members>ServiceContract.BillingGeocodeAccuracy</members>
+    <members>ServiceContract.BillingStateCode</members>
     <members>ServiceContract.ContactId</members>
     <members>ServiceContract.ContractNumber</members>
     <members>ServiceContract.CreatedById</members>
@@ -2451,8 +2475,10 @@
     <members>ServiceContract.Pricebook2Id</members>
     <members>ServiceContract.RootServiceContractId</members>
     <members>ServiceContract.ShippingAddress</members>
+    <members>ServiceContract.ShippingCountryCode</members>
     <members>ServiceContract.ShippingGeocodeAccuracy</members>
     <members>ServiceContract.ShippingHandling</members>
+    <members>ServiceContract.ShippingStateCode</members>
     <members>ServiceContract.SpecialTerms</members>
     <members>ServiceContract.StartDate</members>
     <members>ServiceContract.Status</members>
@@ -2560,6 +2586,7 @@
     <members>User.CommunityNickname</members>
     <members>User.CompanyName</members>
     <members>User.ContactId</members>
+    <members>User.CountryCode</members>
     <members>User.CreatedById</members>
     <members>User.CreatedDate</members>
     <members>User.DefaultGroupNotificationFrequency</members>
@@ -2610,6 +2637,7 @@
     <members>User.Signature</members>
     <members>User.SmallBannerPhotoUrl</members>
     <members>User.SmallPhotoUrl</members>
+    <members>User.StateCode</members>
     <members>User.StayInTouchNote</members>
     <members>User.StayInTouchSignature</members>
     <members>User.StayInTouchSubject</members>
@@ -6484,6 +6512,7 @@
     <members>dsfs__modernizrjs</members>
     <members>dsfs__styles</members>
     <members>img</members>
+    <members>jQueryDataTables</members>
     <members>jq</members>
     <members>jquery</members>
     <members>jquery_cometd</members>
