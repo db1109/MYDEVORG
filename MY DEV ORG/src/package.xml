@@ -5291,6 +5291,7 @@
     <members>Boehringer_Example</members>
     <members>D</members>
     <members>EEEEFFFFGGGGG</members>
+    <members>LIVEAGENTDEMO</members>
     <members>NAPS</members>
     <members>NEW</members>
     <members>Q</members>
@@ -5410,6 +5411,8 @@
     <name>Dashboard</name>
   </types>
   <types>
+    <members>Communities_Shared_Document_Folder</members>
+    <members>Communities_Shared_Document_Folder/Picture3_png.png</members>
     <members>LiveText__HeyWire</members>
     <members>LiveText__HeyWire/LiveText__LiveText_Admin_App_Logo.png</members>
     <members>LiveText__HeyWire/LiveText__LiveText_Admin_App_Upgrade_Logo.png</members>
@@ -5901,6 +5904,7 @@
     <members>Boehringer</members>
     <members>Boehringer Example</members>
     <members>D</members>
+    <members>LIVEAGENTDEMO</members>
     <members>NAPS</members>
     <members>NEW</members>
     <members>Q</members>
@@ -5936,6 +5940,7 @@
     <members>Boehringer</members>
     <members>Boehringer Example</members>
     <members>D</members>
+    <members>LIVEAGENTDEMO</members>
     <members>NAPS</members>
     <members>NEW</members>
     <members>Q</members>
@@ -6055,6 +6060,7 @@
     <members>High Volume Customer Portal User</members>
     <members>HighVolumePortal</members>
     <members>Identity User</members>
+    <members>LIVEAGENTDEMO Profile</members>
     <members>MarketingProfile</members>
     <members>NAPS Profile</members>
     <members>NEW Profile</members>
@@ -6264,6 +6270,7 @@
     <members>VPNorthAmericanSales</members>
     <members>WesternSalesTeam</members>
     <members>x123CustomerUser</members>
+    <members>x123CustomerUser1</members>
     <name>Role</name>
   </types>
   <types>
@@ -6380,6 +6387,7 @@
     <members>Boehringer1</members>
     <members>Boehringer_Example1</members>
     <members>D1</members>
+    <members>LIVEAGENTDEMO1</members>
     <members>NAPS1</members>
     <members>NEW1</members>
     <members>Q1</members>
@@ -6438,6 +6446,7 @@
   </types>
   <types>
     <members>BI</members>
+    <members>LA</members>
     <members>LDS</members>
     <members>LiveText__Framework</members>
     <members>LiveText__LiveText</members>

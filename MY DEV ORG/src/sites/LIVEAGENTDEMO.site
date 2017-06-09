@@ -7,19 +7,19 @@
     <allowStandardLookups>false</allowStandardLookups>
     <allowStandardPortalPages>true</allowStandardPortalPages>
     <allowStandardSearch>false</allowStandardSearch>
-    <authorizationRequiredPage>Unauthorized</authorizationRequiredPage>
+    <authorizationRequiredPage>CommunitiesLogin</authorizationRequiredPage>
     <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
     <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
     <fileNotFoundPage>FileNotFound</fileNotFoundPage>
     <genericErrorPage>Exception</genericErrorPage>
     <inMaintenancePage>InMaintenance</inMaintenancePage>
-    <inactiveIndexPage>InMaintenance</inactiveIndexPage>
-    <indexPage>caseSite</indexPage>
-    <masterLabel>EEEEFFFFGGGGG</masterLabel>
+    <indexPage>CommunitiesLanding</indexPage>
+    <masterLabel>LIVEAGENTDEMO</masterLabel>
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
+    <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>d.bolton@tcsdevorg.com</siteAdmin>
-    <siteTemplate>SiteTemplate</siteTemplate>
-    <siteType>Visualforce</siteType>
-    <subdomain>liveagentdaveb-developer-edition</subdomain>
+    <siteType>ChatterNetwork</siteType>
+    <subdomain>mypriyankatrial-developer-edition</subdomain>
+    <urlPathPrefix>LAD</urlPathPrefix>
 </CustomSite>

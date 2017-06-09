@@ -5,18 +5,18 @@
 liveagent.init('https://d.la1-c2-par.salesforceliveagent.com/chat', '5720Y000000GpK6', '00D0Y000000rruf');
 </script>
 
-    <a id="liveagent_button_online_5730Y000000GpjQ" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5730Y000000GpjQ')">-- Online Chat Content --</a><div id="liveagent_button_offline_5730Y000000GpjQ" style="display: none;">-- Offline Chat Content --</div><script type="text/javascript">
+    <a id="liveagent_button_online_5730Y000000GpjQ" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5730Y000000GpjQ')">
+        
+        
+        <apex:image url="{!$Resource.LA}" width="120" height="50"/>
+       
+    
+    
+    </a><div id="liveagent_button_offline_5730Y000000GpjQ" style="display: none;">-- Offline Chat Content --</div><script type="text/javascript">
 if (!window._laq) { window._laq = []; }
 window._laq.push(function(){liveagent.showWhenOnline('5730Y000000GpjQ', document.getElementById('liveagent_button_online_5730Y000000GpjQ'));
 liveagent.showWhenOffline('5730Y000000GpjQ', document.getElementById('liveagent_button_offline_5730Y000000GpjQ'));
 });</script>
 
-
-
-<a id="liveagent_button_online_5730Y000000Gpk0" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5730Y000000Gpk0')">2!-- Online Chat Content ></a><div id="liveagent_button_offline_5730Y000000Gpk0" style="display: none;">2!-- Offline Chat Content --></div><script type="text/javascript">
-if (!window._laq) { window._laq = []; }
-window._laq.push(function(){liveagent.showWhenOnline('5730Y000000Gpk0', document.getElementById('liveagent_button_online_5730Y000000Gpk0'));
-liveagent.showWhenOffline('5730Y000000Gpk0', document.getElementById('liveagent_button_offline_5730Y000000Gpk0'));
-});</script>
     
 </apex:page>

@@ -23,6 +23,16 @@ window.addEventListener('load', handlePageLoad, false);
     Phone: <input type='text' name='liveagent.prechat:ContactPhone' id='phone' /><br />
     Issue: <input type='text' name='liveagent.prechat:CaseSubject' id='subject' /><br />
 Question: <input type='text' name='liveagent.prechat:Initial_Q__c' id='x' /><br />
+    
+    Department: <select name="liveagent.prechat.buttons">
+<!-- Values are LiveChatButton and/or User IDs. -->
+<option value="5730Y000000Gpk0">Route through button 123 (5730Y000000Gpk0) </option>
+<option value="5730Y000000GpjQ">Route through button Chat With Me (5730Y000000GpjQ)</option>
+<option value="0050Y000000RvX8_5730Y000000GpjQ">Route to agent 0050Y000000RvX8
+with Fallback to button 5730Y000000GpjQ</option>
+    </select>   
+    
+    
 <!-- Hidden fields used to set additional custom details -->
     <input type="hidden" name="liveagent.prechat:CaseStatus" value="New" /><br />
     

@@ -5,9 +5,9 @@
             <user>d.bolton@tcsdevorg.com</user>
         </users>
     </assignments>
-    <enableAgentFileTransfer>false</enableAgentFileTransfer>
+    <enableAgentFileTransfer>true</enableAgentFileTransfer>
     <enableAgentSneakPeek>false</enableAgentSneakPeek>
-    <enableAssistanceFlag>false</enableAssistanceFlag>
+    <enableAssistanceFlag>true</enableAssistanceFlag>
     <enableAutoAwayOnDecline>false</enableAutoAwayOnDecline>
     <enableAutoAwayOnPushTimeout>false</enableAutoAwayOnPushTimeout>
     <enableChatConferencing>false</enableChatConferencing>
@@ -15,11 +15,11 @@
     <enableChatTransferToAgent>true</enableChatTransferToAgent>
     <enableChatTransferToButton>true</enableChatTransferToButton>
     <enableChatTransferToSkill>true</enableChatTransferToSkill>
-    <enableLogoutSound>false</enableLogoutSound>
-    <enableNotifications>false</enableNotifications>
-    <enableRequestSound>false</enableRequestSound>
-    <enableSneakPeek>false</enableSneakPeek>
-    <enableVisitorBlocking>false</enableVisitorBlocking>
+    <enableLogoutSound>true</enableLogoutSound>
+    <enableNotifications>true</enableNotifications>
+    <enableRequestSound>true</enableRequestSound>
+    <enableSneakPeek>true</enableSneakPeek>
+    <enableVisitorBlocking>true</enableVisitorBlocking>
     <enableWhisperMessage>true</enableWhisperMessage>
     <label>LA</label>
 </LiveChatAgentConfig>
