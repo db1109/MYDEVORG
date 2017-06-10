@@ -9,7 +9,7 @@
                     <apex:facet name="header">Email</apex:facet><apex:outputLink target="_parent" value="/{!c.id}">{!c.Email}</apex:outputLink>
                 </apex:column>
                  <apex:column headerClass="slds-text-title--caps">
-                     <apex:facet name="header">FirstName </apex:facet><apex:outputLink target="_parent" value="/{!c.id}">{!c.firstname}</apex:outputLink>
+                     <apex:facet name="header">ENC__c </apex:facet><apex:outputLink target="_parent" value="/{!c.id}">{!c.ENC__c}</apex:outputLink>
                 </apex:column>
                  <apex:column headerClass="slds-text-title--caps">
                      <apex:facet name="header">lastname </apex:facet><apex:outputLink target="_parent" value="/{!c.id}">{!c.lastname}</apex:outputLink>

@@ -12,7 +12,8 @@ liveagent.init('https://d.la1-c2-par.salesforceliveagent.com/chat', '5720Y000000
        
     
     
-    </a><div id="liveagent_button_offline_5730Y000000GpjQ" style="display: none;">-- Offline Chat Content --</div><script type="text/javascript">
+    </a><div id="liveagent_button_offline_5730Y000000GpjQ" style="display: none;">-- Offline Chat Content --</div>
+    <script type="text/javascript">
 if (!window._laq) { window._laq = []; }
 window._laq.push(function(){liveagent.showWhenOnline('5730Y000000GpjQ', document.getElementById('liveagent_button_online_5730Y000000GpjQ'));
 liveagent.showWhenOffline('5730Y000000GpjQ', document.getElementById('liveagent_button_offline_5730Y000000GpjQ'));

@@ -1346,6 +1346,7 @@
     <members>Contact.CreatedDate</members>
     <members>Contact.Department</members>
     <members>Contact.Description</members>
+    <members>Contact.ENC__c</members>
     <members>Contact.Email</members>
     <members>Contact.EmailBouncedDate</members>
     <members>Contact.EmailBouncedReason</members>

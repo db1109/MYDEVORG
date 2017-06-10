@@ -7,6 +7,6 @@ public class JQTableController {
     public JQTableController(ApexPages.StandardController stdController) {
 
         this.a= (Account)stdController.getRecord();
-        con = [select email, firstname, lastname from Contact where accountid =:a.id];
+        con = [select email, firstname, ENC__c,lastname from Contact where accountid =:a.id];
         }
     }

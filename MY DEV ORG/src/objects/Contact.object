@@ -140,6 +140,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>ENC__c</fullName>
+        <externalId>false</externalId>
+        <label>ENC</label>
+        <length>10</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>lastFour</maskType>
+        <required>false</required>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
         <fullName>Email</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
