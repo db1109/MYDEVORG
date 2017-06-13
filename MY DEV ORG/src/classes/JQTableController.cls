@@ -1,4 +1,4 @@
-public class JQTableController {
+public with sharing class JQTableController {
 
     public Account a { get; set; }    
     Public string chosenID {get;set;}
@@ -8,5 +8,6 @@ public class JQTableController {
 
         this.a= (Account)stdController.getRecord();
         con = [select email, firstname, ENC__c,lastname from Contact where accountid =:a.id];
+        system.debug('con ' + con);
         }
     }

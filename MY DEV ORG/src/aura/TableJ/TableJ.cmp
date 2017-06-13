@@ -1,0 +1,22 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="TableJC" >
+
+<aura:handler name="init" value="{!this}" action="{!c.init}"/>
+<aura:attribute name="Conhits" type="Contact[]" />
+
+ <table class="slds-table slds-table--bordered slds-no-row-hover slds-table--cell-buffer">
+ <thead><tr class="slds-text-title--caps">
+ <th scope="col"><div class="slds-truncate" title="Name">Name</div></th>
+ <th scope="col"><div class="slds-truncate" title="Company">Company</div></th>
+ <th scope="col"><div class="slds-truncate" title="Title">Title</div></th>
+ <th scope="col"><div class="slds-truncate" title="Email">Email</div></th></tr>
+ </thead>
+ <aura:iteration var="cx" items="{!v.Conhits}" >
+ <tbody><tr class="slds-hint-parent">
+ <th scope="row"><div class="slds-truncate" title="{!cx.Name}"><a onclick="{!c.goCon}" id="{!cx.Id}">{!cx.Name}</a></div></th>
+ <td><div class="slds-truncate" title="{!cx.Account.Name}">{!cx.Account.Name}</div></td>
+ <td><div class="slds-truncate" title="{!cx.Title}">{!cx.Title}</div></td>
+ <td><div class="slds-truncate" title="{!cx.Email}">{!cx.Email}</div></td></tr>
+ </tbody>
+ </aura:iteration>
+ </table>
+</aura:component>

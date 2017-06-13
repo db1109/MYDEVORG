@@ -151,6 +151,7 @@
     <members>SiteRegisterController</members>
     <members>SiteRegisterControllerTest</members>
     <members>SubmitCaseController</members>
+    <members>TableJC</members>
     <members>Typeahead</members>
     <members>TypeaheadTest</members>
     <members>XSSTest</members>
@@ -914,6 +915,7 @@
     <members>ObjectTest</members>
     <members>QandA</members>
     <members>ShowAllDocs</members>
+    <members>TableJ</members>
     <members>Theme1</members>
     <members>Theme2</members>
     <members>dsfs__DocuSignLightningSendingLocked</members>
@@ -6028,6 +6030,7 @@
     <members>User_Stories_Modify_All</members>
     <members>User_Stories_Read_Only</members>
     <members>User_Stories_View_All</members>
+    <members>VED</members>
     <name>PermissionSet</name>
   </types>
   <types>

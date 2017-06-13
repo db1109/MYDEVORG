@@ -13,6 +13,15 @@
             <componentName>flexipage:visualforcePage</componentName>
         </componentInstances>
         <componentInstances>
+            <componentName>TableJ</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>AddressFinder</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>TableJ</componentName>
+        </componentInstances>
+        <componentInstances>
             <componentInstanceProperties>
                 <name>context</name>
                 <value>GLOBAL</value>

@@ -721,6 +721,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>TableJC</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Typeahead</apexClass>
         <enabled>true</enabled>
     </classAccesses>
