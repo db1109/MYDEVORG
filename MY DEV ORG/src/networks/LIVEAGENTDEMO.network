@@ -33,6 +33,13 @@
             <target>ShowMoreTopics</target>
             <type>NavigationalTopic</type>
         </navigationMenuItem>
+        <navigationMenuItem>
+            <label>Order</label>
+            <position>2</position>
+            <publiclyAvailable>true</publiclyAvailable>
+            <target>Order__c</target>
+            <type>SalesforceObject</type>
+        </navigationMenuItem>
     </navigationLinkSet>
     <networkMemberGroups>
         <profile>admin</profile>
